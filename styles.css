@@ -1,0 +1,112 @@
+/*Geral*/
+body, p, h1, h2, input, textarea{
+    margin: 0;
+    font-family: roboto;
+}
+
+/*navbar*/
+#navbar {
+    background-color: #FF5C00;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar img {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin-right: 80px;
+    margin-left: 60px;
+    padding-right: 40px;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-weight: bold
+}
+
+#main-banner img {
+max-width: 100%;
+}
+
+#main-banner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#about-sucess {
+    background-color: #FF5C00;
+    padding: 0 10px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+}
+#about-sucess h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p {
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#about-sucess .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sucess-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.sucess-container a {
+    background-color: #FF5C00;
+    padding: 0 70px;
+    height: 60px;
+    border-radius: 0 0 10px 10px;
+    max-width: 100%;
+    font-size: 1rem;
+}
+
+#bestseller-section h2 {
+    background-color: #FF5C00;
+    padding: 0 10px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+}
