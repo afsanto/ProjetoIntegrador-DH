@@ -1,0 +1,132 @@
+/*Geral*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Ropa+Sans:ital@0;1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+html{
+    /* a cada 1 rem = 10px.*/
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: "Roboto", 'Times New Roman';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+} 
+
+/* HEADER */
+
+header {
+    background-color: #FF5C00;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    height: 6rem;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    padding: 2.4rem;
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+header .container img{
+    height: 3rem;
+}
+
+
+
+/*MAIN*/
+main{
+    height:70rem;
+    background-image:url('../images/3/2.png');
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #D9D9D9;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 3%;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.footer-list li a{
+    margin-top: 3rem;
+    display:block;
+    line-height:1rem;
+    color:black;
+    }
+
+.footer-cards{
+    margin-top: 2rem;
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    line-height: 6rem;
+    }
+
+.footer-customer{
+    margin-right: 3rem;
+    }
+
+.footer-social{
+    margin-top:10rem;
+    }
+
+.footer-bottom{
+    border-top: 0.2rem solid #FF8038;
+    margin-top: 2rem;
+    text-align: center;
+}
+
