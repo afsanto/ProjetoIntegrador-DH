@@ -5,32 +5,38 @@ body, p, h1, h2, input, textarea{
 }
 
 /*navbar*/
-#navbar {
-    background-color: #FF5C00;
+.container-navbar {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);;
     padding: 0 15px;
     height: 60px;
 }
 
-#navbar img {
+.container-navbar img {
     height: 35px;
-    position: absolute;
+    position: relative;
     top: 10px;
     margin-left: 20px;
 }
 
-#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
-    display: inline-block;
+.container-navbar h2, .container-navbar ul, .container.navbar-list li, .container.navbar nav {
+    display: flex;
 }
 
-#navbar nav {
+.container-navbar {
+    display: flex;
+}
+
+.container-navbar nav {
     float: right;
+    cursor: default;
 }
 
-#navbar ul {
+.container-navbar ul {
     margin-top: 20px;
 }
 
-#navbar li {
+.container-navbar li {
+    list-style: none;
     margin-right: 120px;
     margin-left: -40px;
     padding-right: 30px;
@@ -39,15 +45,24 @@ body, p, h1, h2, input, textarea{
 }
 
 
-#navbar li a:hover {
-    color: black;
+.container-navbar li a:hover {
+    color: rgb(39, 19, 1);
 }
 
-#navbar-list li a {
+.container-navbar li a {
     text-decoration: none;
     color: white;
     padding-left: -10px;
     font-weight: bold
+}
+
+.container-navbar .nav-images {
+    display: flex;
+}
+
+.container-navbar .nav-item {
+    justify-content:space-around;
+    padding-top: 20px;
 }
 
 #main-banner img {
@@ -63,7 +78,7 @@ max-width: 100%;
     background-color: #FF5C00;
     padding: 0 10px;
     height: 50px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 0 0;
     margin-left: 20px;
     margin-right: 20px;
     max-width: 100%;
