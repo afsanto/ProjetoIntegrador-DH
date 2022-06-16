@@ -63,16 +63,16 @@ header .container img {
 }
 
 
-#main-banner img {
+.main-banner img {
 max-width: 100%;
 }
 
-#main-banner {
+.main-banner {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#about-sucess {
+.about-sucess {
     background-color: #FF5C00;
     padding: 0 10px;
     height: 50px;
@@ -84,7 +84,7 @@ max-width: 100%;
     position: relative;
 }
 
-#about-sucess h2 {
+.about-sucess h2 {
     margin-bottom: 15px;
     padding-top: 15px;
     padding-left: 20px;
@@ -95,15 +95,15 @@ div.imagem {
 	display: inline-block;
 }
 
-#about-sucess img {
+.about-sucess img {
     float: left;
 }
 
-#about-sucess span {
+.about-sucess span {
     text-align: center;
 }
 
-#bestseller-section {
+.bestseller-section {
     background-color: #FF5C00;
     padding: 0 10px;
     height: 50px;
@@ -114,7 +114,62 @@ div.imagem {
     margin-top: -10px;
 }
 
+/*FOOTER*/
 
+footer{
+    background-color: #D9D9D9;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 3%;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.footer-list li a{
+    margin-top: 3rem;
+    display:block;
+    line-height:1rem;
+    color:black;
+    }
+
+.footer-cards{
+    margin-top: 2rem;
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    line-height: 6rem;
+    }
+
+.footer-customer{
+    margin-right: 3rem;
+    }
+
+.footer-social{
+    margin-top:10rem;
+    }
+
+.footer-bottom{
+    border-top: 0.2rem solid #FF8038;
+    margin-top: 2rem;
+    text-align: center;
+}
 
 
 
