@@ -93,6 +93,7 @@ max-width: 100%;
 div.imagem {
     width: 420px;
 	display: inline-block;
+
 }
 
 .about-sucess img {
@@ -121,6 +122,8 @@ footer{
     padding-top: 2rem;
     padding-bottom: 4rem;
     border-radius: 3%;
+    position: relative;
+	bottom: 0;
 }
 
 footer a{
