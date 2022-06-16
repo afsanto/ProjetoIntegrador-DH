@@ -23,9 +23,9 @@ header .container img {
 }
 
 .container nav {
-    float: right;
     cursor: default;
     padding-left: 70px;
+    box-sizing: border-box;
 }
 
 .container ul {
@@ -34,16 +34,20 @@ header .container img {
 
 .container li {
     list-style: none;
-    margin-right: 140px;
+    margin-right: 120px;
     margin-left: -50px;
     padding-right: 30px;
-    position: relative;
-    left: 80px;
+    left: 0px;
+}
+
+
+.container .container-images {
+    display: flex;
+    padding-top: 20px;
 }
 
 .container .nav-images {
-    padding-left: 20px;
-    padding-bottom: 50px;
+    right: 100px;
 }
 
 .container li a:hover {
@@ -54,14 +58,10 @@ header .container img {
     text-decoration: none;
     color: white;
     padding-left: -10px;
-    font-weight: bold
+    font-weight: bold;
+    transition: all 250ms linear 0s;
 }
 
-.container .nav-images {
-    display: flex;
-    justify-content:space-around;
-    padding-top: 20px;
-}
 
 #main-banner img {
 max-width: 100%;
