@@ -42,7 +42,7 @@ header .container{
 }
 
 header nav ul{
-    display: flex;
+display: flex;
 }
 
 header nav ul li {
@@ -65,12 +65,114 @@ header .container img{
     height: 3rem;
 }
 
+.icons{
+    display:flex;
+    margin-left: 2rem;
+}
 
 
 /*MAIN*/
-main{
+body{
     height:70rem;
     background-image:url('../images/3/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(0.4rem);
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a{
+    font-size: 1.8rem;
+}
+
+a:hover{
+    color:#FF5C00;
+}
+
+#container-login{
+    background-color: rgba(242, 242, 242, 0.7);
+    
+    width:40rem;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 2rem 3rem;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+}
+
+form{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+label,input{
+    display:block;
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+input{
+    border: 0.2rem solid white;
+    padding:1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto", 'Times New Roman';
+}
+
+#forgot-pass{
+    display:block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1rem;
+    color:black;
+    font-weight: bold;
+    font-family: "Roboto", 'Times New Roman';
+}
+
+#new-user a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color:black;
+    font-weight: bold;
+    font-family: "Roboto", 'Times New Roman';
+}
+
+#forgot-pass:hover{
+    color: rgba(31, 39, 20, 0.4);
+}
+
+#new-user:hover a{
+    color: rgba(31, 39, 20, 0.4);
+}
+
+input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    border:none;
+    height: 4rem;
+    margin-top: 3rem;
+    color:white;
+    background-color: #FF5C00;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #FF8038;
+    transition:0.5s;
 }
 
 /*FOOTER*/
@@ -80,6 +182,8 @@ footer{
     padding-top: 2rem;
     padding-bottom: 4rem;
     border-radius: 3%;
+    
+
 }
 
 footer a{
