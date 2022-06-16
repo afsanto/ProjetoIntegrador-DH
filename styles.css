@@ -85,26 +85,27 @@ max-width: 100%;
 }
 
 .about-sucess h2 {
-    margin-bottom: 15px;
-    padding-top: 15px;
+    margin-bottom: 9px;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
-div.imagem {
+main .about-sucess img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div.imagem {
     width: 420px;
-	display: inline-block;
-
+	
 }
 
-.about-sucess img {
-    float: left;
-}
-
-.about-sucess span {
+main .about-sucess .span {
     text-align: center;
 }
 
-.bestseller-section {
+#bestseller-section {
     background-color: #FF5C00;
     padding: 0 10px;
     height: 50px;
@@ -117,13 +118,11 @@ div.imagem {
 
 /*FOOTER*/
 
-footer{
+footer {
     background-color: #D9D9D9;
     padding-top: 2rem;
     padding-bottom: 4rem;
     border-radius: 3%;
-    position: relative;
-	bottom: 0;
 }
 
 footer a{
