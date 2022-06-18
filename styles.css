@@ -40,24 +40,36 @@ header .container img {
     left: 0px;
 }
 
-
-.container .container-images {
+.container-images {
     display: flex;
     padding-top: 20px;
+    padding-left: 100px;
+    justify-self:end;
 }
 
-.container .nav-images {
-    right: 100px;
+.container-images a {
+    color: white;
+    transition: all 250ms linear 0s;
+}
+
+.container-images a:hover {
+    color: black;
+}
+
+.nav-images {
+    right: 80px;
+    margin-left: 50px;
+    margin-right: 40px;
 }
 
 .container li a:hover {
-    background: #f1600c;
+    color: black;
 }
 
 .container li a {
     text-decoration: none;
     color: white;
-    padding-left: -10px;
+    padding-left: 7px;
     font-weight: bold;
     transition: all 250ms linear 0s;
 }
@@ -94,15 +106,8 @@ main .about-sucess img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.div.imagem {
+    border-radius: 0 0 10px 10px;
     width: 420px;
-	
-}
-
-main .about-sucess .span {
-    text-align: center;
 }
 
 #bestseller-section {
@@ -165,7 +170,16 @@ footer li{
 
 .footer-social{
     margin-top:10rem;
-    }
+}
+
+.footer-social li {
+    height: 2rem;
+    margin-top: 1rem;
+    flex-direction: row;
+    display:flex;
+    align-items:center;
+    line-height: 5rem;
+}
 
 .footer-bottom{
     border-top: 0.2rem solid #FF8038;
