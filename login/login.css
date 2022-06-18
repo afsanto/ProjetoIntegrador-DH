@@ -16,6 +16,7 @@ html{
 body, p, h1, h2, input, textarea{
     margin: 0;
     font-family: roboto;
+    box-sizing: border-box;
 }
 
 /*navbar*/
