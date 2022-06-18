@@ -61,28 +61,41 @@ nav li a:hover {
     height: 50px;
     border-radius: 10px 10px 0 0;
     position: relative;
+    max-height: 100%;
 }
 
 .about-sucess h2 {
     padding: 10px 0 0 30px ;
 }
 
-.imagem img {
-    padding-left: 20px;
+.imagem {
     display: inline-block;
     flex-direction: row;
 }
 
-.imagem span {
+.imagem img {
+    padding-left: 20px;
+    border-radius: 30px 30px;
+}
+
+.texto {
+    margin-top: -22px;
+    background: 100px;
+}
+.texto a {
+    color: black;
     font-weight: bold;
-    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0 0 20px 20px;
+    background-color: #FF8038;
 }
 
 .bestseller-section {
     background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: -8px;
+    margin-top: 10px;
     height: 50px;
     border-radius: 10px 10px 0 0;
     position: relative;
