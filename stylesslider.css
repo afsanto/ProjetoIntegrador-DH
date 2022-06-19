@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);;
+    height: 60px;
+    width: 100%;
+}
+
+nav img {
+    height:40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+    padding-right: 70px;
+}
+
+
+nav li a {
+    color: white;
+    font-weight: bold;
+    transition: all 250ms linear 0s;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+.slider {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 638px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 638px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+}
+
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -12px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    max-width: 100%;
+    z-index: 10px;
+}
+
+.about-sucess h2 {
+    padding: 10px 0 0 30px ;
+}
+
+.imagem {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.imagem img {
+    margin-left: 20px;
+    margin-right: 17px;
+    border-radius: 30px 30px;
+    max-width: 100%;
+    margin-top: -25px;
+}
+
+.texto {
+    margin-top: -22px;
+    background: 100px;
+    padding-left: 28px;
+
+    
+
+}
+.texto a {
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 0 0 20px 20px;
+    background-color: #fd5e01;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.bestseller-section {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.bestseller-section h2 {
+    padding: 10px 0 0 30px;
+}
+
+.bestseller-container img {
+    height: 350px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 52px;
+    border: rgb(212, 212, 212) solid 2px;
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 10px;
+}
+
+.bestseller-container {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.bestseller-container h3 {
+    color: rgb(44, 44, 44);
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.bestseller-container p {
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.subtitle {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #D9D9D9;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "roboto";
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.footer-container img {
+    height: 40px;
+}
+
+.footer-payments h2 {
+    padding-bottom: 5px;
+}
+
+.footer-list li a{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    display:block;
+    line-height: 1rem;
+    color:black;
+}
+
+.footer-cards{
+    flex-direction:row;
+    display:flex;
+    align-items: center;
+    margin-top: 1rem;
+    line-height: 5rem;
+}
+
+.footer-cards img {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.footer-customer{
+    margin-right: 3rem;
+    }
+
+.footer-social{
+    margin-top:10rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.footer-social li {
+    height: 2rem;
+    margin-top: 1rem;
+    align-items:center;
+    line-height: 5rem;
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    border-top: 0.2rem solid #FF8038;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+
+
