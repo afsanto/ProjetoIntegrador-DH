@@ -50,12 +50,11 @@ body{
     height:70rem;
     background-image:url('../images/3/2.PNG');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    width: 100%;
     background-position: center;
     backdrop-filter: blur(0.4rem);
 }
-
-
 
 #container-login{
     background-color: rgba(242, 242, 242, 0.7);
@@ -127,13 +126,15 @@ input{
 input[type="submit"]{
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border:none;
     height: 4rem;
     margin-top: 3rem;
     color:white;
     background-color: #fa833e;
     cursor: pointer;
+    border-radius: 5px;
+    padding-top: 12px;
 }
 
 input[type="submit"]:hover{
