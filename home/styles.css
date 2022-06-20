@@ -306,28 +306,28 @@ footer {
     background-color: #D9D9D9;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-radius: 3%;
+    border-radius: 20px 20px 0 0;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "roboto";
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    
+
 }
 
-footer ul{
+footer ul {
     padding: 0;
 }
 
-footer li{
+footer li {
     list-style: none;
 }
 
-.footer-container{
-    display:flex;
+.footer-container {
+    display: flex;
     justify-content: space-between;
     margin-left: 3rem;
 }
@@ -337,20 +337,21 @@ footer li{
 }
 
 .footer-payments h2 {
+    text-align: center;
     padding-bottom: 5px;
 }
 
-.footer-list li a{
+.footer-list li a {
     margin-top: 1rem;
     padding-bottom: 1rem;
-    display:block;
-    line-height: 1rem;
-    color:black;
+    display: block;
+    line-height: 1.5rem;
+    color: black;
 }
 
-.footer-cards{
-    flex-direction:row;
-    display:flex;
+.footer-cards {
+    flex-direction: row;
+    display: flex;
     align-items: center;
     margin-top: 1rem;
     line-height: 5rem;
@@ -361,31 +362,27 @@ footer li{
     padding-left: 20px;
 }
 
-.footer-customer{
+.footer-customer {
     margin-right: 3rem;
-    }
-
-.footer-social{
-    margin-top:10rem;
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
 }
 
-.footer-social li {
+.footer-social {
+    margin-top: 3rem;
+    
+}
+
+.icons-social {
+    display: flex;
+    gap: 1rem;
     height: 2rem;
-    margin-top: 1rem;
-    align-items:center;
+    margin-top: 3rem;
+    align-items: center;
     line-height: 5rem;
     margin-bottom: 10px;
 }
 
-.footer-bottom{
+.footer-bottom {
     border-top: 0.2rem solid #FF8038;
     margin-top: 2rem;
     text-align: center;
 }
-
-
-
-
