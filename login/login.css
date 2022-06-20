@@ -47,7 +47,7 @@ nav li a:hover {
 }
 
 body{
-    height:70rem;
+    height: 60rem;
     background-image:url('../images/3/2.PNG');
     background-repeat: no-repeat;
     background-size:cover;
@@ -56,15 +56,21 @@ body{
     backdrop-filter: blur(0.4rem);
 }
 
+.body-img {
+    width: 800px;
+    margin-left: 20px;
+}
+
 #container-login{
     background-color: rgba(242, 242, 242, 0.7);
-    width: 472px;
+    width: 454px;
+    height: 550px ;
     margin-left:auto;
     margin-right: auto;
     padding: 2rem 3rem;
     text-align: center;
     margin-top: 10vh;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     font-family: "roboto";
 }
 
@@ -89,8 +95,8 @@ label{
 input{
     border: 0.2rem solid white;
     padding:1rem;
-    font-size: 1rem;
-    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
     font-family: "Roboto", 'Times New Roman';
 }
 
@@ -98,7 +104,7 @@ input{
     display:block;
     text-align: right;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:black;
     font-weight: bold;
     font-family: "Roboto", 'Times New Roman';
@@ -108,7 +114,7 @@ input{
     display:block;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:black;
     font-weight: bold;
     padding-top: 10px;
@@ -147,28 +153,28 @@ footer {
     background-color: #D9D9D9;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-radius: 3%;
+    border-radius: 20px 20px 0 0;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "roboto";
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    
+
 }
 
-footer ul{
+footer ul {
     padding: 0;
 }
 
-footer li{
+footer li {
     list-style: none;
 }
 
-.footer-container{
-    display:flex;
+.footer-container {
+    display: flex;
     justify-content: space-between;
     margin-left: 3rem;
 }
@@ -178,20 +184,21 @@ footer li{
 }
 
 .footer-payments h2 {
+    text-align: center;
     padding-bottom: 5px;
 }
 
-.footer-list li a{
+.footer-list li a {
     margin-top: 1rem;
     padding-bottom: 1rem;
-    display:block;
-    line-height: 1rem;
-    color:black;
+    display: block;
+    line-height: 1.5rem;
+    color: black;
 }
 
-.footer-cards{
-    flex-direction:row;
-    display:flex;
+.footer-cards {
+    flex-direction: row;
+    display: flex;
     align-items: center;
     margin-top: 1rem;
     line-height: 5rem;
@@ -202,26 +209,26 @@ footer li{
     padding-left: 20px;
 }
 
-.footer-customer{
+.footer-customer {
     margin-right: 3rem;
-    }
-
-.footer-social{
-    margin-top:10rem;
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
 }
 
-.footer-social li {
+.footer-social {
+    margin-top: 3rem;
+    
+}
+
+.icons-social {
+    display: flex;
+    gap: 1rem;
     height: 2rem;
-    margin-top: 1rem;
-    align-items:center;
+    margin-top: 3rem;
+    align-items: center;
     line-height: 5rem;
     margin-bottom: 10px;
 }
 
-.footer-bottom{
+.footer-bottom {
     border-top: 0.2rem solid #FF8038;
     margin-top: 2rem;
     text-align: center;

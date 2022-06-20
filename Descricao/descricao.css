@@ -74,6 +74,7 @@ section nav {
 
 nav ol {
     list-style-type: none;
+    padding-top: 2rem;
 }
 
 nav ol li {
@@ -171,7 +172,7 @@ nav ol li a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 
 .right-side .content {
@@ -182,19 +183,17 @@ nav ol li a:hover {
     gap: 2rem;
 }
 
-
-
 .right-side h2 {
     font-weight: 700;
     font-size: 2.8rem;
     line-height: 3.3rem;
-
 }
 
 .right-side h5 {
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
+    margin-top: 0.5rem;
 }
 
 .right-side .amount {
@@ -210,8 +209,11 @@ nav ol li a:hover {
 }
 
 .qtde {
-    border: 0.1px solid black;
+    border: 0.3px solid #b3b2b2;
     padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 5px;
 }
 
 .buttons-sale {
@@ -221,19 +223,21 @@ nav ol li a:hover {
 
 .car {
     text-align: center;
-    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
-    width: 24.6rem;
+    background: white;
+    width: 23rem;
     height: 4.6rem;
-    border: none;
-    border-radius: 5%;
+    border: 0.05rem solid #707070;
+    border-radius: 6px;
     padding: 1.5rem 3.5rem;
-    color: white;
+    color: #FF8038;
     text-decoration: none;
     cursor: pointer;
 }
 
 .car:hover {
-    color: black;
+    color: white;
+    background-color: orangered;
+    border: none;
 }
 
 
@@ -241,18 +245,20 @@ nav ol li a:hover {
 .wish {
     text-align: center;
     background: white;
-    width: 24.6rem;
+    width: 23rem;
     height: 4.6rem;
-    border: 0.05rem solid #545353;
-    border-radius: 5%;
-    padding: 1.5rem 3.5rem;
-    color: black;
+    border: 0.05rem solid #707070;
+    border-radius: 6px;
+    padding: 1.5rem 3rem;
+    color: #FF8038;
     text-decoration: none;
     cursor: pointer;
 }
 
 .wish:hover {
-    color: #FF8038;
+    color: white;
+    background-color: orangered;
+    border: none;
 }
 
 
@@ -266,13 +272,13 @@ nav ol li a:hover {
 .right-side .price {
     font-weight: 800;
     font-size: 5.0rem;
-    line-height: 5.9rem;
+    line-height: 5rem;
 }
 
 .right-side .parcela {
     font-weight: 800;
     font-size: 3rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
 }
 
 .container-master-bottom {
@@ -304,6 +310,7 @@ nav ol li a:hover {
     height: 0.1rem;
     background-color: #FF8038;
     width: 90%;
+    margin-left: 50px;
 }
 
 
@@ -333,7 +340,9 @@ nav ol li a:hover {
 }
 
 td {
-    border: 0.1rem solid black;
+    border: 0.1rem solid white;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .td-left {
@@ -363,16 +372,18 @@ td {
 }
 
 .banner-img {
-    width: 25rem;
+    width: 26.9rem;
     height: 19rem;
     object-fit: cover;
+    justify-content: center;
 }
 
 /*ASIDE*/
 
 .line-vert {
-    height: 1230px;
+    height: 1300px;
     border-right: 1px solid #FF8038;
+    margin-right: 4rem;
     margin-left: 1rem;
 }
 
@@ -381,13 +392,14 @@ td {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 0.7rem;
+    margin-left: -1rem;
+    padding-right: 4rem;
+    margin-top: -5px
 }
 
 .favorites-title {
     font-weight: 400;
     font-size: 1.8rem;
-
 }
 
 .favorites-image {
@@ -421,7 +433,8 @@ footer {
     padding-bottom: 1rem;
     border-radius: 20px 20px 0 0;
     margin-top: 10px;
-    
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: "roboto";
 }
 
