@@ -13,7 +13,7 @@ body {
 nav {
     background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);;
     height: 60px;
-    width: 100%;
+    max-width: 100%;
 }
 
 nav img {
@@ -35,7 +35,6 @@ nav ul li {
     padding-right: 70px;
 }
 
-
 nav li a {
     color: white;
     font-weight: bold;
@@ -46,11 +45,110 @@ nav li a:hover {
     color: black;
 }
 
-.main-banner img {
+.slider {
+    margin: 0 auto;
     max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 0;
+    height: 595px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.slides {
+    width: 400%;
+    height: 600px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: gray;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+#radio1:checked ~ .first {
+    margin-left:0;
+}
+
+#radio2:checked ~ .first {
+    margin-left:-25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left:-50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left:-75%;
+}
+
+.navigation-auto div{
+    border: 2px solid orangered;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 1350px;
+    margin-top: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: orangered;
+    z-index: 1;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: orangered;
+    z-index: 1;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: orangered;
+    z-index: 1;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: orangered;
+    z-index: 1;
 }
 
 .about-sucess {
@@ -61,7 +159,6 @@ nav li a:hover {
     height: 50px;
     border-radius: 10px 10px 0 0;
     position: relative;
-    max-width: 100%;
     z-index: 10px;
 }
 
@@ -78,29 +175,70 @@ nav li a:hover {
     margin-left: 20px;
     margin-right: 17px;
     border-radius: 30px 30px;
-    max-width: 100%;
     margin-top: -25px;
 }
 
 .texto {
-    margin-top: -22px;
-    background: 100px;
-    padding-left: 28px;
-
-    
-
+    margin-top: -34px;
+    padding-left: 7px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
+
 .texto a {
+    color: black;
+    font-weight: bold;
+    margin-left: 14px;
+    margin-right: 20px;
+    padding-right: 173px;
+    padding-left: 173px;
+    padding-top: 7px;
+    height: 35px;
+    border-radius: 0 0 30px 30px;
+    background-color: #fd5e01;
+}
+
+.texto2 {
+    margin-top: -34px;
+    padding-left: 450px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.texto2 a {
     color: black;
     font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-    border-radius: 0 0 20px 20px;
+    padding-right: 137px;
+    padding-left: 138px;
+    padding-top: 7px;
+    height: 35px;
+    border-radius: 0 0 30px 30px;
     background-color: #fd5e01;
-    display: inline-block;
-    flex-direction: row;
+}
+
+.texto3 {
+    margin-top: -34px;
+    padding-left: 920px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.texto3 a {
+    color: black;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 20px;
+    padding-right: 162px;
+    padding-top: 7px;
+    padding-left: 161px;
+    height: 35px;
+    border-radius: 0 0 30px 30px;
+    background-color: #fd5e01;
 }
 
 .bestseller-section {
@@ -117,29 +255,42 @@ nav li a:hover {
     padding: 10px 0 0 30px;
 }
 
-.bestseller-container img {
-    height: 350px;
-    float: left;
+.imagens-colect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagens-colect img {
+    height: 280px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: 20px;
-    padding-left: 52px;
+    margin-right: 20px;
+}
+
+.imagens-colect1 {
     border: rgb(212, 212, 212) solid 2px;
-    border-radius: 0 0 30px 30px;
-    margin-bottom: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 0 0 20px 20px;
 }
 
 .bestseller-container {
     display: inline-block;
     flex-direction: row;
+    padding-right: 150px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .bestseller-container h3 {
+    padding-top: 10px;
     color: rgb(44, 44, 44);
-    padding-left: 20px;
     padding-bottom: 5px;
 }
 
 .bestseller-container p {
-    padding-left: 20px;
     font-size: 1rem;
 }
 
