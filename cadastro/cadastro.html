@@ -31,41 +31,49 @@
                         </svg></a></li>
             </ul>
     </nav>    
-    <main></main>
-        <div class="caixaCriarConta">
-            <strong><h2>Criar Conta</h2></strong>
-            <form class="form" action="/cadastro.html/" method="post">
-                <label for="nome">Nome</label>
-                <br>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-                <br>
-                <label for="sobrenome">Sobrenome</label>
-                <br>
-                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
-                <br>
-                <label for="email">E-mail</label>
-                <br>
-                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
-                <br>
-                <label for="nascimento">Data de Nascimento</label>
-                <br>
-                <input type="date" name="nascimento" id="nascimento" required>
-                <br>
-                <label for="telefone">Telefone/Celular</label>
-                <br>
-                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu numero de telefone" required>
-                <br>
-                <label for="cpf">CPF</label>
-                <br>
-                <input type="text" name="cpf" id="cpf" value="000.000.000-00" required>
-                <br>
-                <label for="password">Senha</label>
-                <br>
-                <input type="password" name="password" id="password" placeholder="******" required>
-            </form>
-        </div>
-    </div>
+    <main>
+        <div class="divPai">
 
+            <div class="caixaCriarConta">
+                <strong><h2>Criar Conta</h2></strong>
+                <form class="form" action="/cadastro.html/" method="post">
+                    <label for="nome">Nome</label>
+                    <br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    <br>
+                    <label for="sobrenome">Sobrenome</label>
+                    <br>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    <br>
+                    <label for="nascimento">Data de Nascimento</label>
+                    <br>
+                    <input type="date" name="nascimento" id="nascimento" required>
+                    <br>
+                    <label for="telefone">Telefone/Celular</label>
+                    <br>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu numero de telefone" required>
+                    <br>
+                    <label for="cpf">CPF</label> 
+                    <br>
+                    <input type="text" name="cpf" id="cpf" value="000.000.000-00" required>
+                    <br>
+                    <label for="password">Senha</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="******" required>
+                    <br>
+                    <input type="checkbox" name="termos">
+                    <label  class="termos" for="termos">Declaro que li e aceito os termos e condições de uso</label>
+                    <br>
+                    <button type="submit"> Criar Conta</button>
+                </form>
+            </div>
+        </div>
+    </main>
+        
     </section>
         <footer class="rodape">
             <div class="footer-container">
