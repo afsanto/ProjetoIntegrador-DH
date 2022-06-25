@@ -46,14 +46,17 @@ nav li a:hover {
     color: black;
 }
 
-body{
-    height: 60rem;
+
+main{
     background-image:url('../images/3/2.PNG');
     background-repeat: no-repeat;
+    background-position: right 0;
     background-size:cover;
-    width: 100%;
-    background-position: center;
     backdrop-filter: blur(0.4rem);
+    margin-left:  20px;
+    margin-right: 20px;
+    height:812px;
+    margin-bottom: -10px;
 }
 
 .body-img {
@@ -65,13 +68,16 @@ body{
     background-color: rgba(242, 242, 242, 0.7);
     width: 454px;
     height: 550px ;
+    position:absolute;
+    top:3%;
+    left:35%;
     margin-left:auto;
     margin-right: auto;
     padding: 2rem 3rem;
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
     font-family: "roboto";
+    margin-top:10vh;
+    margin-bottom:10vh;
 }
 
 form{
