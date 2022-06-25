@@ -350,15 +350,16 @@ label {
     height:5.8rem;
     font-weight: 500;
     font-size: 1.8rem;
-    background: linear-gradient(180deg, #FF4D00 4.17%, #FF5C16 55.08%, #FF701F 100%);
+    background: rgb(204, 200, 198);
     opacity: 0.9;
     border: 0.1rem solid #D9D9D9;
     border-radius: 0.4rem;
-    color:white;
+    color: black;
 }
 
 .discount-button:hover{
-    background: black;
+    background: orangered;
+    color: white;
     cursor:pointer;
 }
 
@@ -434,9 +435,9 @@ padding-left: 2rem;
     margin-right: 3rem;
     width:48.5rem;
     height:6.1rem;
-    color: white;
+    color: black;
     border:none;
-    background: linear-gradient(180deg, #FF4D00 4.17%, #FF5C16 55.08%, #FF701F 100%);
+    background: rgb(204, 200, 198);
     opacity: 0.9;
     border-radius: 0.4rem;
     font-family: 'Roboto';
@@ -446,8 +447,9 @@ padding-left: 2rem;
 }
 
 .finaliza:hover {
-    background: black;
+    background: orangered;
     cursor:pointer;
+    color: white;
 }
 
 .pgto-politica{
