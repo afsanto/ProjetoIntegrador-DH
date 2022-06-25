@@ -21,9 +21,10 @@ main{
     width: 100%;
     height: 900px;
 }
+
 .menu-topo {
     background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
-    
+    ;
     height: 60px;
     width: 100%;
 }
@@ -80,10 +81,10 @@ main{
     display: flex;
     width: 800px;
     height: 100px;
-    background-color: rgba(248, 248, 248, 1);
-    
-    margin-top: 10px;
-    margin-bottom: 20px;
+    background-color: white;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .main-left1-img {
@@ -93,97 +94,38 @@ main{
     padding-left: 20px;
 }
 
-.busula {
-    width: 36px;
-    position: absolute;
-    margin-left: 42px;
-    margin-top: 30px;
-    padding-right: 10px;
-}
+
 
 .main-left1-endereco {
-    margin-top: 20px;
-    width: 400px;
+    margin-top: 25px;
+    width: 90%;
     font-size: 1rem;
     margin-left: 30px;
 }
 
+.main-left1-endereco-caixa {
+    margin-top: 35px;
+    width: 90%;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+
+
 .main-left1-entrega {
     padding: 40px;
-    width: 300px;
+    
 }
-
-.main-left1-entrega h2 a {
-    color: rgba(255, 128, 56, 1);
-}
-
-.main-left1-entrega h2 a:hover {
-    color: orangered;
-    text-decoration: underline;
-}
-
-.main-left2 {
-    width: 800px;
-    height: 100px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
-
-}
-
-.main-left2-1 {
-    width: 500px;
-    font-size: 1rem;
-    height: 35%;
-    margin-top: 3px;
-}
-
-.main-left2-2 {
-    margin-top: 5px;
-    width: 400px;
-    font-size: 1.2rem;
-    font-weight: 800px;
-    height: 40%;
+.main-left-p-verde{
     color: rgba(16, 158, 22, 1);
-}
-
-.main-left2-2 a {
-    position: relative;
-    right: -745px;
-    top: -36px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /*final do left 2 */
-.main-left3 {
-    width: 800px;
-    height: 100px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
-}
 
-.main-left3-1 {
-    width: 500px;
-    font-size: 1rem;
-    height: 35%;
-}
 
-.main-left3-2 {
-    margin-top: 3px;
-    width: 300px;
-    font-size: 1.1rem;
-    font-weight: 800px;
-    height: 40%;
-    color: rgba(255, 128, 56, 1);
-}
 
-.main-left3-2 a {
-    right: -745px;
-    top: -31px;
-    position: relative;
-}
 
 /*final do left 3*/
 
