@@ -17,19 +17,21 @@ header {
     display: flex;
 }
 
-main{
+main {
     width: 100%;
     height: 900px;
 }
+
 .menu-topo {
     background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
-    
+
     height: 60px;
     width: 100%;
 }
 
 .main-link-voltar {
     padding-top: 20px;
+    margin-left: 10px;
 }
 
 .main-link-voltar a {
@@ -132,7 +134,7 @@ main{
     margin-bottom: 20px;
     padding: 50px;
     height: 143px;
-  
+
 
 }
 
@@ -147,7 +149,7 @@ main{
 .main-left2-2 {
     margin-top: 5px;
     width: 400px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 800px;
     height: 40%;
     color: rgba(16, 158, 22, 1);
@@ -174,21 +176,16 @@ main{
     width: 500px;
     font-size: 1.2rem;
     height: 35%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .main-left3-2 {
-    margin-top: 3px;
-    width: 800px;
-    font-size: 0.8rem;
+    margin-top: 5px;
+    width: 500px;
+    font-size: 0.7rem;
 
-    height: 40%;
-    
-}
-
-.main-left3-2 a {
-    right: -745px;
-    top: -31px;
-    position: relative;
 }
 
 /*final do left 3*/
@@ -225,6 +222,7 @@ main{
 
     width: 50%;
 }
+
 .main-right-topoC {
     height: 50%;
     height: 100%;
@@ -232,12 +230,13 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+
 .main-right-topoR {
     display: flex;
     width: 25%;
     height: 100%;
     position: relative;
-   
+
     margin-top: 5px;
     padding-right: 60px;
 }
@@ -283,17 +282,16 @@ main{
 .main-right-main-d {
     width: 20%;
     padding-top: 10px;
- 
-}
-.main-right-main-button{
-   display: flex;
-   align-items: center;
-    height: 110px;
-  
- 
+
 }
 
-.main-right-main-button>button{
+.main-right-main-button {
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+.main-right-main-button>button {
     display: flex;
     justify-content: center;
     width: 336px;
@@ -301,11 +299,20 @@ main{
     font-weight: 700;
     font-size: 1.5rem;
     padding: 10px;
-    color: white;
+    color: orangered;
     font-weight: 700;
     border: none;
-    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
- }
+    border-radius: 5px;
+    background: white;
+    border: #9e9d9d solid 1px;
+    padding-bottom: 7px;
+}
+
+.main-right-main-button>button:hover {
+    color: white;
+    background: orangered;
+    border: none;
+}
 
 .main-right-botom {
     font-size: 1.2rem;
