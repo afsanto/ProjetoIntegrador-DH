@@ -62,7 +62,7 @@ header nav li a:hover {
     width: auto;
     max-height: 1400px;
     height:auto;
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
     margin-top: auto;
 }
@@ -87,17 +87,19 @@ header nav li a:hover {
     background-color: #D9D9D9;
     margin-top: 3.1rem;
     margin-bottom: 2.4rem;
+    padding-left: 20px;
 }
 
 
 .shop-header {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
 }
 
 .product-title {
     color: #ff8b2c;
-
+    margin-left: -15px;
 }
 
 .shop-header .measure {
@@ -154,8 +156,7 @@ header nav li a:hover {
 }
 
 .prod-remove:hover{
-    background: red;
-    color:white;
+    color: orangered;
     width: fit-content;
 }
 
@@ -254,7 +255,6 @@ header nav li a:hover {
 
 .delivery {
     padding-left:6.2rem;
-       
 }
 
 #delivery-select {
@@ -262,6 +262,7 @@ header nav li a:hover {
     height:4.6rem;
     border: 0.2rem solid #D9D9D9;
     border-radius: 0.3rem;
+    padding-top: 5px;
 }
 
 select {
@@ -282,13 +283,14 @@ select {
 label {
     font-weight: 700;
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .discount-place {
     display:flex;
     flex-direction: column;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -298,6 +300,7 @@ label {
     height:4.6rem;
     background: #FFFFFF;
     border: 0.2rem solid #D9D9D9;
+    margin-right: 10px;
     border-radius: 0.3rem;
     outline: 0;
 }
@@ -305,10 +308,11 @@ label {
 .button-discount-check {
     width:3.9rem;
     height:4.6rem;
+    padding-left: 5px;
+    padding-right: 5px;
     background: #FFFFFF;
     border: 0.2rem solid #D9D9D9;
     border-radius: 0.3rem;
-    
 }
 
 .check{
@@ -316,9 +320,9 @@ label {
 }
 
 input::placeholder{
-     font-weight: 400;
-     font-size: 1.8rem;
-     padding-left: 1rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-left: 1rem;
 }
 
 .final-datas {
@@ -355,19 +359,22 @@ input::placeholder{
     margin-left: 6.2rem;
     width:40.9rem;
     height:4.6rem;
-    color: white;
+    color: orangered;
     font-weight: 600;
     font-size: 1.8rem;
     border:none;
-    background: linear-gradient(180deg, #FF4D00 4.17%, #FF5C16 55.08%, #FF701F 100%);
+    background: white;
     opacity: 0.9;
     border-radius: 0.4rem;
+    border: 0.2rem solid #D9D9D9;
     margin-top: 6.2rem;
 }
 
 .finaliza:hover {
-    background: black;
+    background: orangered;
     cursor:pointer;
+    color: white;
+    border: none;
 }
 
 @media (max-width: 1152px){
