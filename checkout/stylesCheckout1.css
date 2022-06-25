@@ -79,11 +79,12 @@ main{
 .main-left1 {
     display: flex;
     width: 800px;
-    height: 100px;
+    height: 143px;
     background-color: rgba(248, 248, 248, 1);
-    
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 .main-left1-img {
