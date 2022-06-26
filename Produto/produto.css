@@ -44,7 +44,6 @@ header nav ul li {
     padding-right: 70px;
 }
 
-
 header nav li a {
     color: white;
     font-weight: bold;
@@ -85,12 +84,15 @@ header nav li a:hover {
 section nav {
     
     margin-top: 2rem;
-    margin-left: 4.3rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5rem;
 }
 
 nav ol {
     list-style-type: none;
+    margin-left: -220px;
 }
 
 nav ol li {
@@ -122,6 +124,9 @@ nav ol li a:hover {
 
 .container-master{
     display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*ASIDE*/
@@ -138,6 +143,26 @@ aside{
     flex-direction: column;
     gap:0.5rem;
     margin-bottom: 1rem;
+}
+
+.aside-jantar a:hover{
+    color: #FF8038;
+}
+
+.aside-xicaras a:hover {
+    color: #FF8038;
+}
+
+.aside-complementos a:hover {
+    color: #FF8038;
+}
+
+.aside-complementos a:hover{
+    color: #FF8038;
+}
+
+.aside-pratos a:hover{
+    color: #FF8038;
 }
 
 .form-aside-cor, .form-aside-marca, .form-aside-material{
@@ -279,6 +304,14 @@ border-radius: 10px;
     margin-bottom: 2rem;
 }
 
+.product-images-1, h2, p, span {
+    margin-left: 10px;
+}
+
+span {
+    padding-bottom: 10px;
+}
+
 .product-image-title{
     font-weight: 700;
     font-size: 1.4rem;
@@ -309,6 +342,11 @@ border-radius: 10px;
     font-weight: 400;
     font-size: 2rem;
     color: #343333;
+    padding-left: 10px;
+}
+
+.go-pages a:hover {
+    color: orangered;
 }
 
 
