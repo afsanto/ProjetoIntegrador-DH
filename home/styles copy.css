@@ -10,62 +10,112 @@
 body {
     font-family: "roboto";
 }
-
-nav {
-    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);;
-    height: 60px;
+.menu {
     max-width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
+    font-family: 'roboto';
 }
 
-nav img {
-    height:40px;
+.menu img {
+    float: left;
+    height: 40px;
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 80px;
 }
 
-nav ul {
-    float: right;
-    margin-right: 20px;
+.menu ul {
+    list-style: none;
     position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-    padding-right: 40px;
-    padding-bottom: 0;
+.menu ul li {
+    width: 160px;
+    float: left;
+    padding: 0;
+    margin: 0;
 }
 
-nav li a {
+.menu ul li svg{
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
     color: white;
+    padding: 19px;
+    left: 0;
+    list-style: none;
+    font-size: 18px;
     font-weight: bold;
-    transition: all 250ms linear 0s;
-    padding: 20px;
-    margin-top: -4px;
+}
+
+.menu ul ul {
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: rgb(223, 63, 5);
+}
+
+.menu ul ul li {
+    float: none;
+    padding-bottom: 20px;
+    background: rgb(223, 63, 5);
+    margin-left: -50px;
+}
+
+.menu ul ul li a {
+    text-align: center;
+    margin-top:-15px;
+    margin-left: 0;
+}
+
+.menu ul ul li a:hover {
+    background-color: rgb(201, 56, 4);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.menu li a svg{
+    margin-top:-3px;
+}
+/*Submenu*/
+
+/*.sub-menu {
+    display: none; 
+}
+
+#pratos:hover, .sub-menu {
     display: inline-block;
 }
 
-nav li a:hover {
-    background-color: rgba(252, 90, 0, 0.911);
+.sub-menu {
+    display: none; 
 }
 
-/*Submenu*/
-
-.sub-menu-1 {
-    display: none;
+#pratos:hover, .sub-menu {
+    display: inline-block;
 }
 
-nav ul:hover .sub-menu-1 {
-    display: block;
-    position: absolute;
-    background-color: rgba(252, 90, 0, 0.911);
-    margin-top: 0;
-    margin-left: 15px;
-    width: 180px;
-}
-
-nav ul:hover .sub-menu-1 ul li a{
+.sub-menu ul li a{
     display: block;
     color: white;
     text-align: center;
@@ -73,49 +123,12 @@ nav ul:hover .sub-menu-1 ul li a{
     border-radius: 10px;
 }
 
-nav ul:hover .sub-menu-1 ul li{
-    text-align: center;
-    border-radius: 10px;
-    transition: 0.7s;
-}
 
-nav ul:hover .sub-menu-1 ul li:hover a {
+.sub-menu ul li:hover a {
     background-color: rgb(201, 57, 5);
 }
 
-.sub-menu-2 {
-    display: none;
-}
-
-nav ul:hover .sub-menu-2 {
-    display: block;
-    position: absolute;
-    background-color: rgba(252, 90, 0, 0.911);
-    margin-top: 0;
-    margin-left: 175px;
-    width: 180px;
-}
-
-nav ul:hover .sub-menu-2 ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    margin-left: 15px;
-    border-radius: 10px;
-}
-
-nav ul:hover .sub-menu-2 ul li{
-    text-align: center;
-    border-radius: 10px;
-    transition: 0.7s;
-}
-
-nav ul:hover .sub-menu-2 ul li:hover a {
-    background-color: rgb(201, 57, 5);
-}
-
-
-/*fimsbmenu*/
+*/
 
 .slider {
     margin: 0 auto;
@@ -236,6 +249,7 @@ nav ul:hover .sub-menu-2 ul li:hover a {
 
 .about-sucess h2 {
     padding: 10px 0 0 30px ;
+    color: white;
 }
 
 .imagem {
@@ -325,6 +339,7 @@ nav ul:hover .sub-menu-2 ul li:hover a {
 
 .bestseller-section h2 {
     padding: 10px 0 0 30px;
+    color: ;
 }
 
 .imagens-colect {
