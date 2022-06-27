@@ -77,7 +77,7 @@ body {
 .menu ul ul li {
     float: none;
     padding-bottom: 20px;
-    background: rgb(223, 63, 5);
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 100%, rgba(255, 119, 41, 0.9) 100%, rgba(255, 146, 40, 10) 100%);
     margin-left: -50px;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .menu ul ul li a:hover {
-    background-color: rgb(201, 56, 4);
+    background-color: rgb(223, 63, 5);
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -98,39 +98,6 @@ body {
 .menu li a svg {
     margin-top: -3px;
 }
-
-/*Submenu*/
-
-/*.sub-menu {
-    display: none; 
-}
-
-#pratos:hover, .sub-menu {
-    display: inline-block;
-}
-
-.sub-menu {
-    display: none; 
-}
-
-#pratos:hover, .sub-menu {
-    display: inline-block;
-}
-
-.sub-menu ul li a{
-    display: block;
-    color: white;
-    text-align: center;
-    margin-left: 15px;
-    border-radius: 10px;
-}
-
-
-.sub-menu ul li:hover a {
-    background-color: rgb(201, 57, 5);
-}
-
-*/
 
 .slider {
     margin: 0 auto;
