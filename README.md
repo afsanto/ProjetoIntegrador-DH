@@ -9,7 +9,7 @@
 <h2>🎓 Sobre a D'House:</h2>
 <h4> Esse projeto integrador foi idealizado utilizando-se das tecnologias ministradas no curso de desenvolvedor Web Fullstack da Digital House. O grupo 1 teve como  missão realizar o desenvolvimento de um site  para e-commerce; voltado a um Marketplace. Nessa estrutura desenvolveremos: na sprint 1 um wireframe, na sprint 2 a modelagem do site em HTML e CSS como front-end inicial. O back-end será iniciado a partir da sprint 3 e contará com toda a parte executável do site e banco de dados. </h4>
 
-<h4> O tema de loja escolhido foi louças e aparelhos de jantar, o conhecimento prévio dos membros do grupo sobre o mercado/produtos e facilidade de obter material contribuíram para a escolha do tema; a utilização de catálogos e imagens disponíveis pelos fabricantes na internet foram condições também importantes.</h4>
+<h4> O tema de loja escolhido foi : <strong>"louças e aparelhos de jantar"</strong>, o conhecimento prévio dos membros do grupo sobre o mercado/produtos e facilidade de obter material contribuíram para a escolha do tema; a utilização de catálogos e imagens disponíveis pelos fabricantes na internet foram condições também importantes.</h4>
 
 <br>
 
