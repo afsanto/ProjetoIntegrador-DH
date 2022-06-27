@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: "roboto";
 }
 
 body {
@@ -46,28 +47,75 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: black;
+    background-color: rgba(252, 90, 0, 0.911);
 }
 
 /*Submenu*/
 
-nav ul ul {
+.sub-menu-1 {
     display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 3px 8px 16px 3px rgba(0,0,0,0.2);
 }
 
-nav ul:hover ul {
+nav ul:hover .sub-menu-1 {
     display: block;
-    background-color: rgb(240, 66, 2);
-    padding: 0;
-    padding-top: 4px;
-}
-
-nav ul ul {
+    position: absolute;
+    background-color: rgba(252, 90, 0, 0.911);
+    margin-top: 0;
+    margin-left: 15px;
     width: 180px;
 }
+
+nav ul:hover .sub-menu-1 ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+nav ul:hover .sub-menu-1 ul li{
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul:hover .sub-menu-1 ul li:hover a {
+    background-color: rgb(201, 57, 5);
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+nav ul:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background-color: rgba(252, 90, 0, 0.911);
+    margin-top: 0;
+    margin-left: 175px;
+    width: 180px;
+}
+
+nav ul:hover .sub-menu-2 ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+nav ul:hover .sub-menu-2 ul li{
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul:hover .sub-menu-2 ul li:hover a {
+    background-color: rgb(201, 57, 5);
+}
+
+
+/*fimsbmenu*/
 
 .slider {
     margin: 0 auto;
