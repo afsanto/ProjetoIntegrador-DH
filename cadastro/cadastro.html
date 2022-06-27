@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="./stylecadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro</title>
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -30,119 +32,122 @@
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                         </svg></a></li>
             </ul>
-    </nav>      
+    </nav>
     <main>
         <div class="divPai">
             <div class="caixaCriarConta">
-                <strong><h2>Criar Conta</h2></strong>
+                <strong>
+                    <h2>Criar Conta</h2>
+                </strong>
                 <form class="form" action="/cadastro.html/" method="post">
                     <label for="nome">Nome</label>
-                    
+
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-                    
+
                     <label for="sobrenome">Sobrenome</label>
-                    
+
                     <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
-                    
+
                     <label for="email">E-mail</label>
-                    
+
                     <input type="email" name="email" id="email" placeholder="Digite seu email" required>
                 </form>
                 <div class="caixaform2">
-                    <form action="">                             <label  for="nascimento">Data de <br> Nascimento</label>
+                    <form action=""> <label for="nascimento">Data de <br> Nascimento</label>
                         <br>
                         <input type="date" name="nascimento" id="nascimento" required>
                     </form>
                     <form action="">
                         <label for="telefone">Telefone/ <br> Celular</label>
                         <br>
-                        <input  type="tel" name="telefone" id="telefone" placeholder="Digite seu numero" required>
+                        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu numero" required>
                     </form>
                 </div>
                 <div class="caixaform3">
-                    <form action="">                             <label  for="cpf">CPF</label>
+                    <form action=""> <label for="cpf">CPF</label>
                         <br>
-                        <input class="inputCpf" type="text" name="cpf" id="cpf" placeholder ="000.000.000-00"required>
+                        <input class="inputCpf" type="text" name="cpf" id="cpf" placeholder="000.000.000-00" required>
                     </form>
                     <form action="">
                         <label for="password">Senha</label>
                         <br>
-                        <input  type="password" name="senha" id="senha" placeholder="******" required>
+                        <input type="password" name="senha" id="senha" placeholder="******" required>
                     </form>
-                                                
-                   
+
+
                 </div>
                 <div>
-                    <input  class ="checkbox" type="checkbox" name="termos">
-                    <label  class="termos" for="termos">Declaro que li e aceito os termos e condições de uso</label>                           
+                    <input class="checkbox" type="checkbox" name="termos">
+                    <label class="termos" for="termos">Declaro que li e aceito os termos e condições de uso</label>
 
-                </div>                    
-                    
+                </div>
+
                 </form>
                 <form action="">
-                    <button type="submit"> Criar Conta</button>
+                    <button type="submit"><a href="http://127.0.0.1:5500/cadastro/cadastro2.html"> Criar Conta</a></button>
                 </form>
             </div>
         </div>
     </main>
-        
+
     </section>
-        <footer class="rodape">
-            <div class="footer-container">
-                <div class="footer-box">
-                    <img src="../images/logo.jpeg" alt="logo">
-                    <div class="company-footer">
-                        <ul class="footer-list">
-                            <li><a href="#">> Sobre Nós</a></li>
-                            <li><a href="#">> FAQ</a></li>
-                            <li><a href="#">> Contato</a></li>
-                            <li><a href="#">> Carreira</a></li>
-                            <li><a href="#">> Politica de Privacidade</a></li>
-                            <li><a href="#">> Mapa do Site</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer-box">
-                    <div class="footer-payments">
-                        <h2>PAGAMENTO SEGURO</h2>
-                        <ul class="footer-cards">
-                            <li><img src="../images/elo.png" alt="elo"></li>
-                            <li><img src="../images/mastercard.png" alt="mastercard"></li>
-                            <li><img src="../images/visa.png" alt="visa"></li>
-                            <li><img src="../images/pix.png" alt="pix"></li>
-                            <li><img src="../images/boleto.png" alt="boleto"></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer-box">
-                    <div class="footer-customer">
-                        <h2>ATENDIMENTO AO CLIENTE</h2>
-                        <p>Fale conosco e tire suas dúvidas!</p>
-                        <p>Seg-sex das 9:00 às 18:00h (exceto feriados)</p>
-                        <br>
-                        <br>
-                        <br>
-                        <p>Telefone: 9999-9999<br>Fale conosco</p>
-                        <ul class="footer-social">
-                            <h2>REDES SOCIAIS</h2>
-                            <li><img src="../images/facebook.png" alt="facebook"></li>
-                            <li><img src="../images/twitter.png" alt="twitter"></li>
-                            <li><img src="../images/instagram.png" alt="instagram"></li>
-                            <li><img src="../images/pinterest.png" alt="pinterest"></li>
-                        </ul>
-                    </div>
+    <footer class="rodape">
+        <div class="footer-container">
+            <div class="footer-box">
+                <img src="../images/logo.jpeg" alt="logo">
+                <div class="company-footer">
+                    <ul class="footer-list">
+                        <li><a href="#">> Sobre Nós</a></li>
+                        <li><a href="#">> FAQ</a></li>
+                        <li><a href="#">> Contato</a></li>
+                        <li><a href="#">> Carreira</a></li>
+                        <li><a href="#">> Politica de Privacidade</a></li>
+                        <li><a href="#">> Mapa do Site</a></li>
+                    </ul>
                 </div>
             </div>
-            <p class="footer-bottom"><br>© 2022 D'house Comércio Varejista S.A<br>
-                CNPJ: 99.999.999/0001-99<br>
-                Endereço: Av. Wireframe DH, 999<br>
-                Bairro Cidade</p>
+
+            <div class="footer-box">
+                <div class="footer-payments">
+                    <h2>PAGAMENTO SEGURO</h2>
+                    <ul class="footer-cards">
+                        <li><img src="../images/elo.png" alt="elo"></li>
+                        <li><img src="../images/mastercard.png" alt="mastercard"></li>
+                        <li><img src="../images/visa.png" alt="visa"></li>
+                        <li><img src="../images/pix.png" alt="pix"></li>
+                        <li><img src="../images/boleto.png" alt="boleto"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <div class="footer-customer">
+                    <h2>ATENDIMENTO AO CLIENTE</h2>
+                    <p>Fale conosco e tire suas dúvidas!</p>
+                    <p>Seg-sex das 9:00 às 18:00h (exceto feriados)</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Telefone: 9999-9999<br>Fale conosco</p>
+                    <ul class="footer-social">
+                        <h2>REDES SOCIAIS</h2>
+                        <li><img src="../images/facebook.png" alt="facebook"></li>
+                        <li><img src="../images/twitter.png" alt="twitter"></li>
+                        <li><img src="../images/instagram.png" alt="instagram"></li>
+                        <li><img src="../images/pinterest.png" alt="pinterest"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom"><br>© 2022 D'house Comércio Varejista S.A<br>
+            CNPJ: 99.999.999/0001-99<br>
+            Endereço: Av. Wireframe DH, 999<br>
+            Bairro Cidade</p>
 
 
-        </footer>
-    </section>     
-    
+    </footer>
+    </section>
+
 </body>
+
 </html>
