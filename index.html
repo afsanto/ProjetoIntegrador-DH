@@ -2,78 +2,74 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./view/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
-    <nav>
-        <div class="container">
-            <img src="../images/logo.jpeg" alt="logo">
-            <ul>
-                <li><a href="#">Pratos</a></li>
-                <li><a href="#">Xícaras</a></li>
-                <li><a href="#">Complementos</a></li>
-                <li><a href="#">Aparelhos de Jantar</a></li>
-                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                            class="bi bi-cart-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                        </svg></a></li>
-                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                            class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                        </svg></a></li>
-            </ul>
+    <nav class="menu">
+        <img src="../images/logo.jpeg" alt="logo">
+        <ul>
+            <li><a href="#">Pratos</a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Produto/produto.html">Prato Raso</a></li>
+                    <li><a href="#">Prato Sobremesa</a></li>
+                    <li><a href="#">Prato Fundo</a></li>
+                    <li><a href="#">Sousplats</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Xícaras</a>
+                <ul>
+                    <li><a href="#">Xícara de Chá</a></li>
+                    <li><a href="#">Xícara de Café</a></li>
+                    <li><a href="#">Canecas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Complementos</a>
+                <ul>
+                    <li><a href="#">Bowls</a></li>
+                    <li><a href="#">Petisqueira</a></li>
+                    <li><a href="#">Tigelas</a></li>
+                    <li><a href="#">Travessas</a></li>
+                    <li><a href="#">Prato de Bolo</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Jogo de jantar</a>
+                <ul>
+                    <li><a href="#">20 peças</a></li>
+                    <li><a href="#">30 peças</a></li>
+                    <li><a href="#">42 peças</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg></a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg></a>
+                <ul>
+                    <li><a href="#">Login/Cadastro</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Meus Pedidos</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
     <section>
         <!--Banner inicio -->
         <div class="slider">
-            <div class="slides">
-                <!---Radio buttons--->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <!--- fim Radio buttons--->
-
-                <!---slides imagens--->
-                <div class="slide first">
-                    <img src="../images/banner2.png" alt="banner 2">
-                </div>
-                <div class="slide">
-                    <img src="../images/banner5.PNG" alt="banner 5">
-                </div>
-                <div class="slide">
-                    <img src="../images/banner6.png" alt="banner 6">
-                </div>
-                <div class="slide">
-                    <img src="../images/banner3.png" alt="banner 3">
-                </div>
-                <!--slide imagens fim -->
-
-                <!--navigation auto -->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-            </div>
-
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-
+            <img src="../images/banner2.png" alt="banner 2">
         </div>
     </section>
     <section>
@@ -99,15 +95,15 @@
             <h2>Best Seller</h2>
         </div>
         <div class="imagens-colect">
-        <div class="imagens-colect1">
-            <img src="../images/12/1.PNG" alt="pratoseller">
-        </div>
-        <div class="imagens-colect1">
-            <img src="../images/12/1.PNG" alt="pratoseller">
-        </div>
-        <div class="imagens-colect1">
-            <img src="../images/12/1.PNG" alt="pratoseller">
-        </div>
+            <div class="imagens-colect1">
+                <img src="../images/12/1.PNG" alt="pratoseller">
+            </div>
+            <div class="imagens-colect1">
+                <img src="../images/12/1.PNG" alt="pratoseller">
+            </div>
+            <div class="imagens-colect1">
+                <img src="../images/12/1.PNG" alt="pratoseller">
+            </div>
         </div>
         <div class="bestseller-container">
             <h3><a href="#">COLEÇÃO LA TAVOLA</a></h3>
