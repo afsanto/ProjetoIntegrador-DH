@@ -53,21 +53,21 @@
      <td>Descrição de Produto</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Group%2022.png" style="width: 80% alt="Cadastro"></td>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Group%2017.png" style="width: 80%;" alt="Checkout"></td>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Group%2018.png" style="width: 80%;" alt="Carrinho"></td>
+    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/Home.png" style="width: 80% alt="Home"></td>
+     <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/produto.png" style="width: 80%;" alt="Produtos"></td>
+       <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/descri%C3%A7%C3%A3o.png" style="width: 80%;" alt="Descrição"></td>
   </tr>
   </table>
 <table>
   <tr>
-    <td>Cadastro</td>
+    <td>Login</td>
      <td>Checkout</td>
      <td>Carrinho</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Group%2024.png" style="width: 80% alt="Cadastro"></td>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Checkout.png" style="width: 80%;" alt="Checkout"></td>
-    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/Group%2020.png" style="width: 80%;" alt="Carrinho"></td>
+    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/login.png" style="width: 80% alt="Login"></td>
+        <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/checkout.png" style="width: 80%;" alt="Checkout"></td>
+    <td><img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/prints/carrinho.png" style="width: 80%;" alt="Carrinho"></td>
   </tr>
   </table>
   
