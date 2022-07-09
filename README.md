@@ -74,7 +74,7 @@
   <h2>💙 Nossa Escola Parceira: </h2>
   
   <p align="center">
-    <img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/DH.png" style="width: 40% alt="DH"></td>
+    <img src="https://github.com/AllezitoBR/ProjetoIntegrador-DH/blob/master/images/logo.jpeg" style="width: 40% alt="DH"></td>
 </p>
 <br>
                                                                                                                       
