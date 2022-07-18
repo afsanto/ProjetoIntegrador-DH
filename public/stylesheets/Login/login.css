@@ -4,51 +4,112 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: "roboto";
 }
 
 body {
     font-family: "roboto";
 }
 
-nav {
-    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);;
+.menu {
+    max-width: 100%;
     height: 60px;
-    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
+    font-family: 'roboto';
 }
 
-nav img {
-    height:40px;
+.menu img {
+    float: left;
+    height: 40px;
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 80px;
 }
 
-nav ul {
-    float: right;
-    margin-right: 20px;
+.menu ul {
+    list-style: none;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-
-nav ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 15px;
-    padding-right: 70px;
+.menu ul li {
+    width: 160px;
+    float: left;
+    padding: 0;
+    margin: 0;
 }
 
+.menu ul li svg {
+    padding: 0;
+    margin: 0;
+}
 
-nav li a {
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
     color: white;
+    padding: 19px;
+    left: 0;
+    list-style: none;
+    font-size: 18px;
     font-weight: bold;
-    transition: all 250ms linear 0s;
+    z-index: 3;
 }
 
-nav li a:hover {
-    color: black;
+.menu ul ul {
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+    list-style-type: none;
+    padding-left: 50px;
+    z-index: 3;
 }
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: rgb(223, 63, 5);
+    height: 60px;
+    z-index: 3;
+}
+
+.menu ul ul li {
+    float: none;
+    padding-bottom: 25px;
+    background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 100%, rgba(255, 119, 41, 0.9) 100%, rgba(255, 146, 40, 10) 100%);
+    margin-left: -50px;
+    z-index: 3;
+}
+
+.menu ul ul li a {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 0;
+    z-index: 3;
+}
+
+.menu ul ul li a:hover {
+    background-color: rgb(223, 63, 5);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    z-index: 3;
+}
+
+.menu li a svg {
+    margin-top: -3px;
+}
+
 
 
 main{
-    background-image:url('../images/3/2.PNG');
+    background-image:url('/3/2.png');
     background-repeat: no-repeat;
     background-position: right 0;
     background-size:cover;
@@ -104,6 +165,14 @@ input{
     font-size: 0.8rem;
     margin-bottom: 1rem;
     font-family: "Roboto", 'Times New Roman';
+}
+
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #0d009c;
 }
 
 #forgot-pass{
