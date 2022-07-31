@@ -22,7 +22,7 @@ const cadastroController ={
     },
 
     sucesso: (req,res)=>{
-        res.render('/sucesso'); 
+        res.render('sucesso'); 
     }
    
 };
