@@ -18,7 +18,7 @@
         <div class="divPai">
             <div class="caixaCriarConta">
                 <strong><h2>Criar Conta</h2></strong>
-                <form class="form" action="/cadastro.html/" method="post">
+                <form class="form" action="/cadastro/criar" method="POST">
                     <label for="nome">Nome</label>
                     
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
@@ -32,22 +32,24 @@
                     <input type="email" name="email" id="email" placeholder="Digite seu email" required>
                 </form>
                 <div class="caixaform2">
-                    <form action="">                            <label  for="nascimento">Data de <br> Nascimento</label>
+                    <form action="/cadastro/criar" method="POST">                            
+                        <label  for="nascimento">Data de <br> Nascimento</label>
                         <br>
                         <input type="date" name="nascimento" id="nascimento" required>
                     </form>
-                    <form action="">
+                    <form action="/cadastro/criar" method="POST">
                         <label for="telefone">Telefone/ <br> Celular</label>
                         <br>
                         <input  type="tel" name="telefone" id="telefone" placeholder="Digite seu numero" required>
                     </form>
                 </div>
                 <div class="caixaform3">
-                    <form action="">                             <label  for="cpf">CPF</label>
+                    <form action="/cadastro/criar" method="POST">                             
+                        <label  for="cpf">CPF</label>
                         <br>
                         <input class="inputCpf" type="text" name="cpf" id="cpf" placeholder ="000.000.000-00"required>
                     </form>
-                    <form action="">
+                    <form action="/cadastro/criar" method="POST">
                         <label for="password">Senha</label>
                         <br>
                         <input  type="password" name="senha" id="senha" placeholder="******" required>
@@ -56,13 +58,15 @@
                    
                 </div>
                 <div>
-                    <input  class ="checkbox" type="checkbox" name="termos">
-                    <label  class="termos" for="termos">Declaro que li e aceito os termos e condições de uso</label>                           
+                    <form action="/cadastro/criar" method="POST">
+                        <input  class ="checkbox" type="checkbox" name="termos">
+                        <label  class="termos" for="termos">Declaro que li e aceito os termos e condições de uso</label>                    
+                    </form>
 
                 </div>                    
                     
-                </form>
-                <form action="">
+                
+                <form action="/cadastro/criar" method="POST">
                     <button type="submit"> Criar Conta</button>
                 </form>
             </div>
