@@ -7,8 +7,18 @@
     font-family: "roboto";
 }
 
+html {
+
+    /* a cada 1 rem = 10px.*/
+    font-size: 62.5%;
+}
+
+
 body {
     font-family: "roboto";
+    font-size: 1.6rem;
+    display:block;
+
 }
 
 .menu {
@@ -22,6 +32,14 @@ body {
     float: left;
     height: 40px;
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+#logotipo{
+    float: left;
+    height: 40px;
+    margin-top: -20px;
     margin-left: 20px;
     margin-right: 80px;
 }
@@ -109,7 +127,7 @@ body {
 
 
 main{
-    background-image:url('/3/2.png');
+    background-image:url('/images/3/2.png');
     background-repeat: no-repeat;
     background-position: right 0;
     background-size:cover;
@@ -127,8 +145,8 @@ main{
 
 #container-login{
     background-color: rgba(242, 242, 242, 0.7);
-    width: 454px;
-    height: 550px ;
+    width: 45.4rem;
+    height: 55rem ;
     position:absolute;
     top:3%;
     left:35%;
@@ -192,7 +210,7 @@ input{
     font-size: 0.8rem;
     color:black;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 1rem;
     font-family: "Roboto", 'Times New Roman';
 }
 
@@ -215,7 +233,7 @@ input[type="submit"]{
     background-color: #fa833e;
     cursor: pointer;
     border-radius: 5px;
-    padding-top: 12px;
+    padding-top: 1.2rem;
 }
 
 input[type="submit"]:hover{
@@ -229,9 +247,9 @@ footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
     border-radius: 20px 20px 0 0;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-family: "roboto";
 }
 
@@ -255,7 +273,7 @@ footer li {
 }
 
 .footer-container img {
-    height: 40px;
+    height: 4rem;
 }
 
 .footer-payments h2 {
@@ -280,8 +298,8 @@ footer li {
 }
 
 .footer-cards img {
-    height: 30px;
-    padding-left: 20px;
+    height: 3rem;
+    padding-left: 2rem;
 }
 
 .footer-customer {
@@ -300,7 +318,7 @@ footer li {
     margin-top: 3rem;
     align-items: center;
     line-height: 5rem;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .footer-bottom {
@@ -310,6 +328,62 @@ footer li {
 }
 
 
+@media (max-width: 1100px)
+{
+  html {
+       font-size: 50%;
+}    
+}
 
+@media (max-width: 880px)
+{
+   html {
+         font-size: 40%;
+} 
+
+.icons-social img{
+
+    width: 50%;
+    height: 50%;
+}
+
+
+}
+        
+@media (max-width: 700px)
+{
+   html {
+         font-size: 30%;
+}    
+}
+
+@media (max-width: 550px)
+{
+   html {
+         font-size: 25%;
+}  
+
+}
+
+@media (max-width: 450px)
+{
+   html {
+         font-size: 20%;
+}    
+}
+
+@media (max-width: 370px)
+{
+   html {
+         font-size: 15%;
+}    
+}
+
+@media (max-width: 290px)
+{
+   html {
+         font-size: 10%;
+}    
+}
 
 

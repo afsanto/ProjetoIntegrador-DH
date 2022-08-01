@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="/Prato Fundo/pratoFundo.css">
+    <link rel="stylesheet" href="/stylesheets/Prato Fundo/pratoFundo.css">
     <link rel="stylesheet" href="./responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,23 +22,9 @@
 
     <main>
         <section>
-            <div class="banner-images">
-                <div class="banner-image">
-                    <img class="banner-img" src="../images/345.PNG">
-                </div>
-                <div class="banner-image">
-                    <img class="banner-img" src="../images/281538242_318236130479245_3829454221508402800_n.jpg">
-                </div>
-                <div class="banner-image">
-                    <img class="banner-img" src="../images/Capturar.PNG">
-                </div>
-                <div class="banner-image">
-                    <img class="banner-img" src="../images/—Pngtree—social media icons set facebook_3556899.png">
-                </div>
-                <div class="banner-image">
-                    <img class="banner-img" src="../images/283218549_1294098584332964_8204117314078147044_n.jpg">
-                </div>
-            </div>
+            <!-- Banner -->
+	        <%- include ('../partials/banner')%>
+	        <!-- /Banner -->
         </section>
 
 
@@ -62,116 +48,9 @@
 
             <div class="container-master">
 
-                <aside>
-                    <div class="aside-pratos">
-                        <h5 class="aside-product-title">Pratos</h5>
-                        <a href="../Prato Raso/produto.html" class="aside-item">Prato Raso</a>
-                        <a href="#" class="aside-item">Prato Sobremesa</a>
-                        <a href="../Prato Fundo/pratoFundo.html" class="aside-item">Prato Fundo</a>
-                        <a href="#" class="aside-item">Sousplat</a>
-                    </div>
-
-                    <div class="aside-xicaras">
-                        <h5 class="aside-product-title">Xícaras</h5>
-                        <a href="#" class="aside-item">Xícara de Chá</a>
-                        <a href="#" class="aside-item">Xícara de Café</a>
-                        <a href="#" class="aside-item">Canecas</a>
-                    </div>
-
-                    <div class="aside-complementos">
-                        <h5 class="aside-product-title">Complementos</h5>
-                        <a href="#" class="aside-item">Bowls</a>
-                        <a href="#" class="aside-item">Petisqueira</a>
-                        <a href="#" class="aside-item">Tigelas</a>
-                        <a href="#" class="aside-item">Travessas</a>
-                        <a href="#" class="aside-item">Prato de Bolo</a>
-                    </div>
-
-                    <div class="aside-jantar">
-                        <h5 class="aside-product-title">Aparelho de jantar</h5>
-                        <a href="#" class="aside-item">20 peças</a>
-                        <a href="#" class="aside-item">30 peças</a>
-                        <a href="#" class="aside-item">30 peças</a>
-                    </div>
-
-                    <hr class="left-hr">
-
-                    <form class="form-aside">
-                        <h5 class="form-aside-title">Por cor</h5>
-                        <div class="form-aside-cor">
-                            <label class="chk"><input type="checkbox" id="azul" value="azul"
-                                    name="cor" /><span></span>Azul</label>
-                            <label class="chk"><input type="checkbox" id="branco" value="branco"
-                                    name="cor" /><span></span>Branco</label>
-                            <label class="chk"><input type="checkbox" id="colorido" value="colorido"
-                                    name="cor" /><span></span>Colorido</label>
-                            <label class="chk"><input type="checkbox" id="verde" value="verde"
-                                    name="cor" /><span></span>Verde</label>
-                            <label class="chk"><input type="checkbox" id="rosa" value="rosa"
-                                    name="cor" /><span></span>Rosa</label>
-                            <label class="chk"><input type="checkbox" id="preto" value="preto"
-                                    name="cor" /><span></span>Preto</label>
-                            <label class="chk"><input type="checkbox" id="bege" value="bege"
-                                    name="cor" /><span></span>Bege</label>
-                            <label class="chk"><input type="checkbox" id="amarelo" value="amarelo"
-                                    name="cor" /><span></span>Amarelo</label>
-                            <label class="chk"><input type="checkbox" id="vermelho" value="vermelho"
-                                    name="cor" /><span></span>Vermelho</label>
-                        </div>
-
-                        <hr class="left-hr">
-
-                        <h5 class="form-aside-title">Por marca</h5>
-                        <div class="form-aside-marca">
-                            <label class="chk"><input type="checkbox" id="Porto Brasil" value="Porto Brasil"
-                                    name="marca" /><span></span>Porto
-                                Brasil</label>
-                            <label class="chk"><input type="checkbox" id="Alleanza" value="Alleanza"
-                                    name="marca" /><span></span>Allenza</label>
-                            <label class="chk"><input type="checkbox" id="Le Creuset" value="Le Creuset"
-                                    name="marca" /><span></span>Le
-                                Creuset</label>
-                            <label class="chk"><input type="checkbox" id="Oxford Porcelanas" value="Oxford Porcelanas"
-                                    name="marca" /><span></span>Oxford Porcelanas</label>
-                            <label class="chk"><input type="checkbox" id="Monte Siao" value="Monte Siao"
-                                    name="marca" /><span></span>Monte
-                                Sião</label>
-                            <label class="chk"><input type="checkbox" id="Wolff" value="Wolff"
-                                    name="marca" /><span></span>Wolff</label>
-                            <label class="chk"><input type="checkbox" id="KitchenAid" value="KitchenAid"
-                                    name="marca" /><span></span>KitchenAid</label>
-                        </div>
-
-                        <hr class="left-hr">
-
-                        <h5 class="form-aside-title">Por material</h5>
-                        <div class="form-aside-material">
-                            <label class="chk"><input type="checkbox" id="madreperola" value="madreperola"
-                                    name="material" /><span></span>Madrepérola</label>
-                            <label class="chk"><input type="checkbox" id="aco Inox" value="aco Inox"
-                                    name="material" /><span></span>Aço
-                                Inox</label>
-                            <label class="chk"><input type="checkbox" id="pedra sabao" value="pedra sabao"
-                                    name="material" /><span></span>Pedra
-                                Sabão</label>
-                            <label class="chk"><input type="checkbox" id="madeira" value="madeira"
-                                    name="material" /><span></span>Madeira</label>
-                            <label class="chk"><input type="checkbox" id="ceramica" value="ceramica"
-                                    name="material" /><span></span>Cerâmica</label>
-                            <label class="chk"><input type="checkbox" id="porcelana" value="porcelana"
-                                    name="material" /><span></span>Porcelana</label>
-                            <label class="chk"><input type="checkbox" id="cristal" value="cristal"
-                                    name="material" /><span></span>Cristal</label>
-                            <label class="chk"><input type="checkbox" id="vidro" value="vidro"
-                                    name="material" /><span></span>Vidro</label>
-                            <label class="chk"><input type="checkbox" id="argila" value="argila"
-                                    name="material" /><span></span>Argila</label>
-
-                        </div>
-
-                    </form>
-
-                </aside>
+                <!-- aside -->
+	            <%- include ('../partials/aside')%>
+	            <!-- /aside -->
 
 
                 <section>
