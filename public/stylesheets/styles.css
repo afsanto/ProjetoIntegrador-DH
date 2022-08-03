@@ -23,9 +23,10 @@ body {
 
 .menu {
     max-width: 100%;
-    height: 6rem;
+    height: 6.5rem;
     background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);
     font-family: 'roboto';
+    
 }
 
 .menu img {
@@ -124,59 +125,75 @@ body {
     margin-top: -3px;
 }
 
-.container-banner {
+/*Carrossel*/
+
+.slider-container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
     
-    padding-left: 25rem;
-    padding-right: 2rem;
-    height: 90vh;
-    margin-top: -5px;
+}
+
+.slider{
+    display: flex;
+    width: 300%;
+    margin-left: -100%;
     
+}
+
+
+.slider-section{
+    width: 100%;
     
 }
 
-.carousel-inner {
-    
-    align-items: center;
-    z-index: 1;
+
+.slider-img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
-.carousel-item{
-    margin-bottom: 1.2rem;
-    align-items: center;
-    z-index: 1;
+.slider-btn{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255,255,255,0.7);
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor:pointer;
+
 }
 
-.carousel-control-prev {
-    z-index: 2;
+.slider-btn:hover{
+    background: #fff;
 }
 
-.carousel-control-next {
-    z-index: 2;
+.slider-btn-next{
+    right:10px;
 }
 
-.carousel-indicators li {
-    margin-top: -10px;
-    background-color: orangered;
+.slider-btn-prev{
+    left:10px;
 }
 
-.carousel-control-prev span {
-    background-color: orangered;
-    border-radius: 2rem;
-    padding: 1.2rem;
-}
+/*Fim Carrossel*/
 
-.carousel-control-next span {
-    background-color: orangered;
-    border-radius: 2rem;
-    padding: 1.2rem;
-}
 
 .about-sucess {
+    
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 1rem;
-    height: 5rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    height: 7.3rem;
     border-radius: 10px 10px 0 0;
     position: relative;
     z-index: 2;
@@ -184,173 +201,33 @@ body {
 
 
 .about-sucess h2 {
-    padding: 10px 0 0 30px;
+    padding: 0.8rem 0 0 3rem;
     color: white;
     font-family: "roboto";
     font-weight: bold;
     font-size: 3rem;
-}
-
-
-
-
-
-
-
-
-.imagem {
-   /* display: inline-block;*/
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.imagem img {
-    margin-left: 20px;
-    margin-right: 17px;
-    border-radius: 30px 30px;
-    margin-top: -25px;
-}
-
-.texto {
-    margin-top: -34px;
-    padding-left: 7px;
-    /*position: absolute;
-    left:28.2rem;*/
-    display: flex;
-    /*justify-content: center;*/
-}
-
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
     
 }
-
-
-.texto a {
-    color: black;
-    font-weight: bold;
-    margin-left: 14px;
-    margin-right: 20px;
-    padding-right: 173px;
-    padding-left: 173px;
-    padding-top: 7px;
-    height: 35px;
-    border-radius: 0 0 30px 30px;
-    background-color: #fd5e01;
-}
-
-.texto a:hover{
-    color: white;
-    text-decoration: none;
-}
-
-.texto-2 {
-    margin-top: -34px;
-    padding-left: 450px;
-    /*position: absolute;
-    left:28rem;*/
-    display: flex;
-    /*justify-content: center;*/
-}
-
-.texto-2 a {
-    color: black;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-right: 137px;
-    padding-left: 138px;
-    padding-top: 7px;
-    height: 35px;
-    border-radius: 0 0 30px 30px;
-    background-color: #fd5e01;
-}
-
-.texto-2 a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.texto3 {
-    margin-top: -34px;
-    padding-left: 920px;
-    /*position: absolute;
-    left:27.6rem;*/
-    display: flex;
-    /*justify-content: center;*/
-}
-
-.texto3 a {
-    color: black;
-    font-weight: bold;
-    margin-left: 0;
-    margin-right: 20px;
-    padding-right: 162px;
-    padding-top: 7px;
-    padding-left: 161px;
-    height: 35px;
-    border-radius: 0 0 30px 30px;
-    background-color: #fd5e01;
-}
-
-.texto3 a:hover {
-    color: white;
-    text-decoration: none;
-}
-
 
 
 .bestseller-section {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 1rem;
-    height: 5rem;
-    border-radius: 10px 10px 0 0;
+    height: 7.3rem;
+    border-radius: 1rem 1rem 0 0;
     position: relative;
 }
 
 .bestseller-section h2 {
-    padding: 10px 0 0 30px;
+    padding: 1.5rem 0 0 3rem;
     color: white ;
     font-family: "roboto";
     font-weight: bold;
     font-size: 3rem;
+    
 }
 
-.imagens-colect {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.imagens-colect img {
-    height: 280px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.imagens-colect1 {
-    border: rgb(212, 212, 212) solid 2px;
-    margin-left: 13px;
-    margin-right: 13px;
-    border-radius: 0 0 20px 20px;
-}
 
 
 .product-images {
@@ -368,27 +245,38 @@ body {
 }
 
 
-
 .product-images-1-m{
     display:flex;
-    gap:5.5rem;
     margin-bottom: -2rem;
-    justify-content: center;
-    position:relative;
-    
-   
+    justify-content:space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .product-image-m1{
     display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
+    flex-direction: row;
+    margin-bottom: -3rem;
     position:relative;
-    width:42rem;
+    width:44rem;
     height: 68rem;
     object-fit: cover;
-    padding:2.4rem;
+    padding:1rem;
+}
+
+.product-image-title1{
+    display:flex;
+    color: black;
+    font-weight: bold;
+    border-radius: 0 0 3rem 3rem;
+    background-color: #fd5e01;
+    width:42rem;
+    height: 5rem;
+    justify-content: center;
+    z-index: 25;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -447,39 +335,10 @@ span {
 
 .bestseller-section{
 
-    margin-top: 10rem;
+    margin-top: 9rem;
 }
 
 
-
-
-.bestseller-container {
-    display: flex;
-    flex-direction: row;
-    padding-right: 15rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
-    justify-content:space-around;
-}
-
-.bestseller-container h3 {
-    
-    padding-top: 1rem;
-    color: rgb(44, 44, 44);
-    padding-bottom: 5px;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.bestseller-container p {
-    font-size: 1rem;
-}
-
-.subtitle {
-    padding-top: 0.5rem;
-    font-weight: bold;
-    font-size: 0.8rem;
-}
 
 
 /*FOOTER*/
@@ -591,56 +450,16 @@ footer li {
 @media (max-width: 1420px)
 {
   html {
-       font-size: 55%;
+       font-size: 61%;
 } 
 
-.container-banner {
-    
-    padding-left: 25rem;
-    padding-right: 2rem;
-    width: 130rem;
-    height: 67rem;
-    margin-top: -5px;
-    
-    
-}
-
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
-}
 
 .about-sucess {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 15rem;
     height: 5rem;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: 2;
 }
 
@@ -650,6 +469,32 @@ footer li {
 }
 
 }
+
+@media (max-width: 1320px)
+{
+  html {
+       font-size: 56%;
+} 
+
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    height: 5rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+}
+
 
 @media (max-width: 1220px)
 {
@@ -657,66 +502,31 @@ footer li {
        font-size: 50%;
 } 
 
-.container-banner {
-    
-    padding-left: 25rem;
-    padding-right: 2rem;
-    width: 130rem;
-    height: 67rem;
-    margin-top: -5px;
-    
-    
-}
-
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-    
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 19px;
+    left: 0;
+    list-style: none;
+    font-size: 1.5rem;
     font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+    z-index: 3;
 }
+
 
 .about-sucess {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 14rem;
     height: 5rem;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: 2;
 }
 
-.container-banner {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width:100%;
-    height: 90rem;
-    margin-top: -5px;
-    overflow: hidden;
-    
-}
+
+
 
 .footer-cards img {
     height: 3rem;
@@ -724,113 +534,20 @@ footer li {
 }
 
 }
-
 
 @media (max-width: 1120px)
-{
-  html {
-       font-size: 49%;
-} 
-
-.container-banner {
-    
-    padding-left: 25rem;
-    padding-right: 2rem;
-    width: 130rem;
-    height: 67rem;
-    margin-top: -5px;
-    
-    
-}
-
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
-}
-
-.about-sucess {
-    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 18rem;
-    height: 5rem;
-    border-radius: 10px 10px 0 0;
-    position: relative;
-    z-index: 2;
-}
-
-.footer-cards img {
-    height: 3rem;
-    padding-left: 2rem;
-}
-
-}
-
-@media (max-width: 1060px)
 {
   html {
        font-size: 44%;
 } 
 
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
-}
 
 .about-sucess {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 18rem;
     height: 5rem;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: 2;
 }
 
@@ -847,6 +564,29 @@ footer li {
          font-size: 39%;
 } 
 
+.menu img {
+    float: left;
+    height: 3rem;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    margin-right: 8rem;
+
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 19px;
+    left: 0;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    z-index: 3;
+}
+
+
 .icons-social img{
 
     width: 50%;
@@ -854,41 +594,16 @@ footer li {
 }
 
 .product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+    padding-left:1.7rem;
+    padding-right: 1rem;
 }
 
 .about-sucess {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 30rem;
     height: 5rem;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: 2;
 }
 
@@ -912,6 +627,33 @@ footer li {
          font-size: 35%;
 } 
 
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 19px;
+    left: 0;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.menu svg{
+    width:2rem;
+    
+}
+
+.menu img {
+    float: left;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 8rem;
+
+}
+
 .icons-social img{
 
     width: 50%;
@@ -919,41 +661,16 @@ footer li {
 }
 
 .product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
-}
-
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+    padding-left:1.9rem;
+    padding-right: 0.8rem;
 }
 
 .about-sucess {
     background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 30rem;
     height: 5rem;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: 2;
 }
 
@@ -971,32 +688,27 @@ footer li {
          font-size: 30%;
 } 
 
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
+.menu img {
+    float: left;
+    height: 3rem;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 8rem;
+
 }
 
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
+.product-image-m1{
+    padding-left:2.1rem;
+    padding-right: 0.8rem;
+}
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
     height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
 }
 
 .footer-cards img {
@@ -1006,39 +718,62 @@ footer li {
 
 }
 
-@media (max-width: 550px)
+
+@media (max-width: 680px)
 {
    html {
-         font-size: 25%;
+         font-size: 26%;
 } 
 
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
+.menu img {
+    float: left;
+    height: 3rem;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    margin-right: 8rem;
+
 }
 
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
     height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
 }
+
+.product-image-m1{
+    padding-left:3rem;
+    padding-right: 0.4rem;
+}
+
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+}
+
+
+
+@media (max-width: 580px)
+{
+   html {
+         font-size: 21%;
+} 
+
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 5rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
 
 .footer-cards img {
     height: 3rem;
@@ -1051,35 +786,21 @@ footer li {
 @media (max-width: 450px)
 {
    html {
-         font-size: 20%;
+         font-size: 17%;
 } 
 
-.product-image-m1{
-    display:flex;
-    gap:5.5rem;
-    margin-bottom: -5rem;
-    justify-content: center;
-    position:relative;
-    width:42rem;
-    height: 68rem;
-    object-fit: cover;
-    padding:2.4rem;
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 5rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
 }
 
-.product-image-title1{
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: bold;
-    border-radius: 0 0 3rem 3rem;
-    background-color: #fd5e01;
-    width:40rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 25;
-    position:absolute;
-    
+.product-image-m1{
+    padding-left:3.8rem;
+    padding-right: 0;
 }
 
 .footer-cards img {
@@ -1092,14 +813,57 @@ footer li {
 @media (max-width: 370px)
 {
    html {
-         font-size: 15%;
-}    
+         font-size: 11%;
+} 
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 5rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+.product-image-m1{
+    padding-left:3.8rem;
+    padding-right: 0;
+}
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+
+
 }
 
 @media (max-width: 290px)
 {
    html {
-         font-size: 10%;
-}    
+         font-size: 8%;
+}
+
+.about-sucess {
+    background: linear-gradient(90deg, rgba(255, 92, 0, 50) 4.06%, rgba(255, 119, 41, 50) 57.09%, rgba(255, 146, 45, 50) 100%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 5rem;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+.product-image-m1{
+    padding-left:3.8rem;
+    padding-right: 0;
+}
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+
 }
 
