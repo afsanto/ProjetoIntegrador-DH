@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout responsivo 1</title>
+    <title>Checkout responsivo 2</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
         <div class="menu-topo">
             <img src="../images/logo.jpeg" alt="logo d-house">
         </div>
-    </header>--> 
-    <!--<%- include('../partials/headerCheckout') %>-->
+    </header> -->
+    
     <nav class="navbar navbar-expand-md navbar-light fixed-top box-shadow" style="background: linear-gradient(90deg, rgba(255, 92, 0, 0.9) 4.06%, rgba(255, 119, 41, 0.9) 57.09%, rgba(255, 146, 45, 0.9) 100%);">
         <a class="navbar-brand" href="/">
           <img src="../images/logo.jpeg" alt="logo d-house"  height="40"  >
@@ -34,71 +34,74 @@
 
     <main>
              <section class="container-fluid pb-5">     
-                <a href="../">< Carrinho</a> 
+                <a href="../checkoutres">Endereço</a> 
                 <div class="row">       
                     <div class="col-lg-8 bg-light">
                         <div class="border border-light">
-                            <div class="py-3"><h5>Como você quer receber ou retirar sua compra?</h5></div>
-                            <div class="m-2">Endereço</div>
-                            <div>
-                            <table class="table table-hover table-striped">
-                                <tbody>
-                                  <tr>
-                                    <th scope="row"><img src="../images/brcheck1.png" alt="bt localizacao end" ></th>
-                                    <td><h5>Jose Antônio Silva Santos</h5>
-                                       Rua Doutor Genésio Salles                                
-                                       - CEP 410000000 - Rio de Janeiro, RJ </td>
-                                    <td style="vertical-align: middle;">                                    
-                                        <a style="color: orange" href="#">Editar ou escolher outro</a></td>                                    
-                                  </tr>
-                                </tbody>
-                            </table>
-                            </div>
-                            <div><h5>Receber compra</h5></div>
-                            
-                            <div class="form-group">
-                                <div>
-                                <table class="table table-hover table-striped">
-                                    <tbody>
-                                      <tr>
-                                        <th><div class="form-check">
-                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                            <label class="form-check-label" for="exampleRadios2">
-                                             
-                                            </label>
-                                          </div></th>
-                                        <td>Chegará hoje entre as 16 e 21 h </td>
-                                        <td class="text-center" style="color:green">Grátis</td>
-                                      </tr>
-                                    </tbody>
-                                </table>
-                        
-                            
-                                <table class="table table-hover table-striped">
-                                    <tbody>
-                                      <tr>
-                                        <th><div class="form-check">
-                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                            <label class="form-check-label" for="exampleRadios1">
-                                             
-                                            </label>
-                                          </div></th>
-                                        <td>Chegará no seu endereço segunda feira</td>
-                                        <td class="text-center">47,00</td>
-                                      </tr>
-                                    </tbody>
-                                </table>
-                                </div>
-                            
+                            <div class="py-3"><h5>Como você prefere pagar?</h5></div>
+                           
+                            <div class="form-group container">
+                              <div class="row">
+                                <table class="table bg-white">                                                                
+                                        <tbody>
+                                            <tr class="col-lg-1">
+                                                  <th style="vertical-align: middle;">
+                                                    <div class="form-check">
+                                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                      <label class="form-check-label" for="exampleRadios2">
+                                                      </label>
+                                                    </div>
+                                                  </th>
+                                                  <th><img src="../images/visacc.png" alt=""></th>
+                                                  <td><h5>Visa </h5>
+                                                    <p class="text-left" style="color:green">Até 6 parcelas sem juros</p>
+                                                  </td>
+                                            </tr>
+                                          
 
-                            
+                                            <tr class="col-lg-1">
+                                              <th style="vertical-align: middle;">
+                                                <div class="form-check">
+                                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                  <label class="form-check-label" for="exampleRadios2">
+                                                  </label>
+                                                </div>
+                                              </th>
+                                              <th><img src="../images/pix.png" alt=""></th>
+                                              <td><h5>PIX</h5>
+                                                <p class="text-left" style="color:green">Aprovação imediata</p>
+                                              </td>
+                                            </tr>
+                                 
+                                            <tr class="col-lg-10">
+                                              <th style="vertical-align: middle;">
+                                                <div class="form-check">
+                                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                  <label class="form-check-label" for="exampleRadios2">
+                                                  </label>
+                                                </div>
+                                              </th>
+                                              <th><img src="../images/boleto2.png" alt=""></th>
+                                              <td><h5>Boleto</h5>
+                                                <p class="text-left" style="color:green">Será aprovado em 1 ou 2 dias úteis</p>
+                                              </td>
+                                            </tr>
+                                      
+                                        </tbody>
+                                   
+                               
+                                </table>
+                                
+                              
+                              
+                              </div>                                                      
                                 <div class="container">
                                     <div class="row">
                                         <div class="col"></div>
                                         <div class="col"></div>
                                         <div class="col text-center"><strong>Você pagará: 339,00</strong></div>
                                         <div class="col">
-                                          <form action="/checkoutRes2" method="GET">
+                                          <form action="/checkoutResPrevVenda" method="GET">
                                              <button type="submit" class="btn btn-warning btn-block p-2" style="max-width: 200px;" >Continuar</button>
                                           </form>
                                         </div>
@@ -170,14 +173,14 @@
 
     </main>
 
-   <footer class="bg-light text-center py-3">
+    <footer class="bg-light text-center py-3">
       <p class="mb-0 font-weight-bold">© 2022 D'house Comércio Varejista S.A</p>
         <p class="mb-0 font-weight-light">CNPJ: 99.999.999/0001-99</p> 
         <p class="mb-0 font-weight-light">Endereço: Av. Wireframe DH, 999</p> 
         <p class="mb-0 font-weight-light">Pituba - Salvador-BA</p> 
     </footer>
 
-    <!--<%- include('../partials/footerCheckout.ejs') %>-->
+    
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
