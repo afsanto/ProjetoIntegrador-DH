@@ -45,6 +45,10 @@ const cadastroController = {
         }
         return res.send('Login ou senha errada')
 
+    },
+    meusDados: (req, res) => {
+        res.render('./Cadastro/meusDados')
     }
+
 }
 module.exports = cadastroController;

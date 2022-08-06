@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Adilson Fernando dos Santos",
+        "cpf": "23123123100",
+        "email": "adilson.fernando@gmail.com",
+        "rg": "71471471400",
+        "masculino": "on",
+        "dataNasc": "1965-04-13",
+        "estado": "24",
+        "cidade": "São Bernardo do Campo",
+        "cep": "09811-350",
+        "bairro": "Assunção",
+        "rua": "Rua Elon Blum",
+        "numero": "51",
+        "complemento": "20"
+    },
+    {
+        "nome": "Dilza Bernardo  dos Santos",
+        "cpf": "23123123100",
+        "email": "adilson-fernando@uol.com.br",
+        "rg": "14714714700",
+        "feminino": "on",
+        "dataNasc": "1938-11-24",
+        "estado": "27",
+        "cidade": "Joinville",
+        "cep": "89213600",
+        "bairro": "Nova Brasilia",
+        "rua": "Rua Plácido Afonso Rausis",
+        "numero": "20",
+        "complemento": "20"
+    }
+]

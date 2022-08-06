@@ -243,6 +243,21 @@ button:hover{
 /* fim main*/
 
 
+/*Validações*/
+
+.error-validation{
+    color:#FF1A1A;
+    position:absolute;
+    top:5.7rem;
+    font-size: 0.8rem;
+}
+
+
+.template{
+    display:none;
+}
+
+
 /* INICIO FOOTER*/
 footer {
     background-color: #D9D9D9;

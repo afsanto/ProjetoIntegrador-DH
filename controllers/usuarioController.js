@@ -1,5 +1,6 @@
 const fs = require("fs");
 const usersJson = require('../users.json')
+const usersJsonComplete = require('../usersComplete.json')
 const bcrypt = require('bcrypt')
 const usuarioController = {
 
@@ -16,6 +17,21 @@ const usuarioController = {
         });
         return res.redirect('/users/cadastro2')
     },
+
+    cadastraMeusDados: (req, res) => {
+        const usuario = req.body
+        console.log(usuario)
+        usersJsonComplete.push(usuario)
+        fs.writeFile("usersComplete.json", JSON.stringify(usersJsonComplete, null, 4), err => {
+            
+            if (err) throw err;
+            console.log("Done writing complete"); 
+        });
+        return res.redirect('/users/cadastro2')
+    },
+
+
+
     exibirCadastro: (req, res) => {
         res.render('../views/Cadastro/cadastro3')
     },
@@ -35,11 +51,16 @@ const usuarioController = {
             if (senhaValida) {
                 req.session.isAuth = dadosUsuario.email
                 
-                return res.redirect('/pratoFundo')
+                return res.redirect('/')
             }
         }
-        return res.send('Login ou senha errada')
+          return res.redirect('/users/cadastro')
 
+       // return res.send('Login ou senha errada')
+    },
+
+    meusDados: (req, res) => {
+        res.render('./Cadastro/meusDados')
     }
 }
 module.exports = usuarioController

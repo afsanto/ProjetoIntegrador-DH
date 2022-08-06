@@ -12,6 +12,7 @@ const loggedUserMiddleware = require('../middlewares/loggedUserMiddleware');
 
 router.post('/cadastro', cadastroController.cadastra); 
 router.get('/cadastro', cadastroController.index); 
+router.get('cadastro/meusdados', cadastroController.meusDados)
 //router.get('/logout', cadastroController.logout);
 
 

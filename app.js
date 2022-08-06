@@ -52,7 +52,7 @@ app.use('/', cadastroRouter);
 app.use('/users',usuarioRouter );
 app.use('/', loginRouter);
 app.use("/description", descriptionRouter);
-app.use('/', checkoutRouter);
+app.use('/checkout', checkoutRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

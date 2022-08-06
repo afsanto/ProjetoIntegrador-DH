@@ -18,6 +18,15 @@
         "nome": "Akane Hirose",
         "email": "akane@gmail.com",
         "senha": "$2b$11$5beeJpN/wkgMO3d5NQttIOMJ4DAEyy30tUN5wRsF0QxFL8kAEPEYK"
+    },
+    {
+        "nome": "Marlene Matos",
+        "email": "marlene@gmail.com",
+        "senha": "$2b$11$GOyts9commcmXUbABlKyX.Olh6lHee5IQFJ0JHMou7Fctjizb4Dua"
+    },
+    {
+        "nome": "Adilson Fernando dos Santos",
+        "email": "adilson.fernando@gmail.com",
+        "senha": "$2b$11$O9.yNlidoM2kprTVWc1y3er/tNjRsae9jLf8cxDEYJXAMvAUbzZOe"
     }
-    
 ]

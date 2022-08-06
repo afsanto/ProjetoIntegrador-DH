@@ -285,6 +285,7 @@ body {
     gap:5rem;
     margin-bottom: 2rem;
     justify-content: center;
+    
 }
 
 .product-images-1, h2, p, span {
@@ -310,27 +311,6 @@ span {
     font-size: 1.4rem;
 }
 
-.go-pages{
-    display:flex;
-    width:70rem;
-    justify-content: center;
-    gap:2.6rem;
-    margin: 0 auto;
-    margin-top: 6.5rem;
-    margin-bottom: 2.8rem;
-    cursor:pointer;
-}
-
-.go-page{
-    font-weight: 400;
-    font-size: 2rem;
-    color: #343333;
-    padding-left: 10px;
-}
-
-.go-pages a:hover {
-    color: orangered;
-}
 
 
 .bestseller-section{
@@ -716,7 +696,15 @@ footer li {
     padding-left: 2rem;
 }
 
+
+    nav li {
+        display: none;
+    }
+    
+    
 }
+
+
 
 
 @media (max-width: 680px)
