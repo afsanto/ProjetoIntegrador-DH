@@ -46,12 +46,13 @@ app.use(express.static(path.join(__dirname, 'views')));
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 app.use('/login', loginRouter);
+app.use("/description", descriptionRouter);
 app.use('/', productRouter );
 app.use('/logout', loginRouter);
 app.use('/', cadastroRouter);
 app.use('/users',usuarioRouter );
 app.use('/', loginRouter);
-app.use("/description", descriptionRouter);
+/*app.use("/description", descriptionRouter);*/
 app.use('/checkout', checkoutRouter);
 
 // catch 404 and forward to error handler
