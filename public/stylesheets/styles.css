@@ -37,12 +37,17 @@ body {
     margin-right: 8rem;
 
 }
-#logotipo{
+#logotipo {
     float: left;
     height: 4rem;
     margin-top: -2rem;
     margin-left: 2rem;
     margin-right: 8rem;
+
+}
+
+#logoid {
+    background-color: transparent;
 }
 
 .menu ul {
@@ -70,10 +75,10 @@ body {
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 19px;
+    padding: 1.9rem;
     left: 0;
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     z-index: 3;
 }
@@ -93,7 +98,7 @@ body {
 
 .menu a:hover {
     background-color: rgb(223, 63, 5);
-    height: 6rem;
+    height: 6.5rem;
     z-index: 3;
 }
 
@@ -115,15 +120,23 @@ body {
 .menu ul ul li a:hover {
     background-color: rgb(223, 63, 5);
     border-radius: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     text-align: center;
     z-index: 3;
 }
 
+#ps{
+    font-size: 1.45rem;
+}
+
+
 .menu li a svg {
     margin-top: -3px;
 }
+
+
+
 
 /*Carrossel*/
 

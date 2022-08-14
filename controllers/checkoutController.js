@@ -12,7 +12,8 @@ let listaRotasCheckout = [
     {'rota':'checkoutRes','metodo':'checkoutRes'},
     {'rota':'checkoutRes2','metodo':'checkoutRes2'},
     {'rota':'checkoutResPrevVenda','metodo':'checkoutResPrevVenda'},
-    {'rota':'sucessoCompra','metodo':'sucessoCompra'}
+    {'rota':'sucessoCompra','metodo':'sucessoCompra'},
+    {'rota':'sucessoCompra1','metodo':'sucessoCompra1'}
     
 ]
 
