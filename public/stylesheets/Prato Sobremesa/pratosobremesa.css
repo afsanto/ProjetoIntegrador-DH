@@ -16,6 +16,11 @@ html {
 body {
     font-family: "roboto";
     font-size: 1.6rem;
+<<<<<<< HEAD
+    display:block;
+
+=======
+>>>>>>> master
 }
 
 .menu {
@@ -33,6 +38,17 @@ body {
     margin-right: 80px;
 }
 
+<<<<<<< HEAD
+#logotipo{
+    float: left;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+=======
+>>>>>>> master
 .menu ul {
     list-style: none;
     position: relative;
@@ -494,4 +510,208 @@ footer li {
     border-top: 0.2rem solid #FF8038;
     margin-top: 2rem;
     text-align: center;
+<<<<<<< HEAD
 }
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1920px)
+{
+  
+.container-menu{
+    display: none;
+}
+
+}
+
+
+@media (max-width: 1220px)
+{
+  html {
+       font-size: 50%;
+} 
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+
+}
+
+@media (max-width: 980px)
+{
+   html {
+         font-size: 40%;
+} 
+
+.icons-social img{
+
+    width: 50%;
+    height: 50%;
+}
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+}
+
+
+/*@media (max-width: 780px) {
+    ul {
+        display: none;
+    }
+    main .container-menu img{
+        display: none;
+    }
+    .container-menu{
+        height: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #checkbox-menu {
+        position: absolute;
+        opacity: 0;
+    }
+
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+
+    label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        background: white;
+        border-radius: 30px;
+        transition: 0.25s ease-in-out;
+    }
+
+    label span:nth-child(1){
+        top: 0;
+    }
+    label span:nth-child(2){
+        top: 8px;
+    }
+    label span:nth-child(3){
+        top: 16px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px
+    }
+    #checkbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+    }
+    #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top: 8px
+    }
+
+  
+}*/
+        
+@media (max-width: 700px)
+{
+   html {
+         font-size: 30%;
+} 
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+#logodh{
+    width:20rem;
+    height: 5rem;
+}
+
+
+}
+
+@media (max-width: 550px)
+{
+   html {
+         font-size: 25%;
+} 
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+#logodh{
+    width:20rem;
+    height: 5rem;
+}
+
+}
+
+@media (max-width: 450px)
+{
+   html {
+         font-size: 20%;
+} 
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+#logodh{
+    width:20rem;
+    height: 5rem;
+}
+
+}
+
+@media (max-width: 370px)
+{
+   html {
+         font-size: 15%;
+} 
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+#logodh{
+    width:20rem;
+    height: 5rem;
+}
+
+}
+
+@media (max-width: 290px)
+{
+   html {
+         font-size: 10%;
+}  
+
+.footer-cards img {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+#logodh{
+    width:20rem;
+    height: 5rem;
+}
+
+}
+
+
+=======
+}
+>>>>>>> master
