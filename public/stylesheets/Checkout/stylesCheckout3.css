@@ -53,9 +53,15 @@ main{
 }
 
 .menu-topo img {
+<<<<<<< HEAD
     height: 4rem;
     margin-top: 2rem;
     margin-left: 2rem;
+=======
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+>>>>>>> master
 
 
 }

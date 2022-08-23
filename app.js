@@ -7,6 +7,7 @@ var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+<<<<<<< HEAD
 var loginRouter = require('./routes/login');
 var productRouter = require('./routes/produto');
 var cadastroRouter = require('./routes/cadastro');
@@ -16,6 +17,12 @@ var checkoutRouter = require('./routes/checkout');
 
 //var loggedUserDataMiddleware = require('./middlewares/loggedUserDataMiddleware');
 
+=======
+<<<<<<< HEAD
+var checkoutRouter = require('./routes/checkout');
+=======
+>>>>>>> 139d6124c3422e4649c1fa627d49691c91bcc872
+>>>>>>> master
 
 var app = express();
 
@@ -44,6 +51,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 
 
 app.use('/', indexRouter);
+<<<<<<< HEAD
 //app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use("/description", descriptionRouter);
@@ -54,6 +62,10 @@ app.use('/users',usuarioRouter );
 app.use('/', loginRouter);
 /*app.use("/description", descriptionRouter);*/
 app.use('/checkout', checkoutRouter);
+=======
+app.use('/users', usersRouter);
+app.use('/', checkoutRouter);
+>>>>>>> master
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

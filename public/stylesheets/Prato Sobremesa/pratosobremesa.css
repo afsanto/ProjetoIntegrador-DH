@@ -16,8 +16,11 @@ html {
 body {
     font-family: "roboto";
     font-size: 1.6rem;
+<<<<<<< HEAD
     display:block;
 
+=======
+>>>>>>> master
 }
 
 .menu {
@@ -35,6 +38,7 @@ body {
     margin-right: 80px;
 }
 
+<<<<<<< HEAD
 #logotipo{
     float: left;
     height: 40px;
@@ -43,6 +47,8 @@ body {
     margin-right: 80px;
 }
 
+=======
+>>>>>>> master
 .menu ul {
     list-style: none;
     position: relative;
@@ -504,6 +510,7 @@ footer li {
     border-top: 0.2rem solid #FF8038;
     margin-top: 2rem;
     text-align: center;
+<<<<<<< HEAD
 }
 
 /*RESPONSIVIDADE*/
@@ -705,3 +712,6 @@ footer li {
 }
 
 
+=======
+}
+>>>>>>> master

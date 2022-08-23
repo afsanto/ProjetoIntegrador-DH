@@ -135,6 +135,7 @@ body {
     margin-top: -3px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -159,6 +160,13 @@ body {
 .slider-section{
     width: 100%;
     
+=======
+.container-banner {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 90vh;
+    margin-top: -5px;
+>>>>>>> master
 }
 
 
@@ -418,6 +426,7 @@ footer li {
     border-top: 0.2rem solid #FF8038;
     margin-top: 2rem;
     text-align: center;
+<<<<<<< HEAD
 }
 
 #logodh{
@@ -868,3 +877,6 @@ footer li {
 
 }
 
+=======
+}
+>>>>>>> master
