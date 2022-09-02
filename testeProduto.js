@@ -136,10 +136,30 @@ async function buscaProdutosCompra(){
     console.log(al.toJSON());
 }
 
+async function criaVariasCompras(){
+    const alu = await Compra.bulkCreate([{
+        total: 1435.38,
+        data: 2022-06-01,
+        pago: 1,
+        enderecoEntrega: 'Rua Universal 361 apto11 Anchieta São Bernardo do Campo SP', 
+        usuarios_id: 1
+    },
+    {
+        total: 3000.99,
+        data: 2020-07-01,
+        pago: 1,
+        enderecoEntrega: 'Rua Placido Afonso Rausis 20 casa Nova Brasilia Joinville SC', 
+        usuarios_id: 2
+    }
+
+]);
+console.log(alu);
+}
+
 
 
 //buscaProdutos();
 
-//buscaProdutosCompra();
+buscaProdutosCompra();
 
-criaVariosProdutos();
+//criaVariosProdutos();

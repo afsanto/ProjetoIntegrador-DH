@@ -6,6 +6,7 @@ const productController = require('../controllers/productController');
 
 router.get('/:rota', productController.metodo);
 
+
 module.exports = router;
 
 

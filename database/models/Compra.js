@@ -14,7 +14,28 @@ module.exports = (sequelize, DataTypes) => {
         })
 
 
-        Compra.associate = (models)=>{
+
+        Compra.associate = (models) => {
+
+            Compra.belongsToMany(models.Produto, {
+                as: 'compra_produto',
+                through: 'compra_has_produto',
+                foreignKey: 'compra_id',
+                otherKey: 'produto_id',
+                timestamps: false
+            })
+    
+            Compra.belongsTo(models.Usuario, {
+                as: 'compra_usuario',
+                foreignKey: 'usuarios_id'
+            })
+        }
+    
+    
+        return Compra
+    }
+
+        /*Compra.associate = (models)=>{
          Compra.belongsToMany(models.Produto,{
             as:'compra_produto',
             through:'compra_has_produto',
@@ -34,4 +55,4 @@ module.exports = (sequelize, DataTypes) => {
         }   
 
     return Compra
-}
+}*/
