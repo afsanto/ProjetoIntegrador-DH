@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const {sequelize, Produto} = require('../database/models/index');
 
 let listaRotas = [
         {'rota':'pratoFundo','metodo':'indexFundo','dir':'Prato Fundo'},
@@ -21,7 +22,7 @@ let listaRotas = [
 
     const productController = {
       
-      metodo: (req, res) => {
+     metodo: (req, res) => {
                 const rotaA = req.params.rota
                 const rotaI = listaRotas.find(i => i.rota == rotaA);
                 const rotaB = rotaI.dir;
@@ -29,6 +30,12 @@ let listaRotas = [
                 const rotaFinal = `./${rotaB}/${rotaC}`;
                 
             res.render(rotaFinal)},
+
+      listAll: async function buscaProdutos(){
+        const al = await Produto.findAll();
+        return res.json(a);
+    }, 
+
       };
     
 
