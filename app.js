@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 <<<<<<< HEAD
 var loginRouter = require('./routes/login');
 var productRouter = require('./routes/produto');
+var apiRouter = require('./routes/apiRoute');
 var cadastroRouter = require('./routes/cadastro');
 const usuarioRouter = require('./routes/usuario');
 var descriptionRouter = require("./routes/descriptionRoute");
@@ -56,6 +57,7 @@ app.use('/', indexRouter);
 app.use('/login', loginRouter);
 app.use("/description", descriptionRouter);
 app.use('/', productRouter );
+app.use('/api', apiRouter );
 app.use('/logout', loginRouter);
 app.use('/', cadastroRouter);
 app.use('/users',usuarioRouter );
